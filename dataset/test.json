@@ -1,0 +1,1416 @@
+[
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/57",
+        "Diễn giải": "Thanh toán tiền bao internet  tháng 5/2024, Thông báo số 251-02 ngày 01/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/64",
+        "Diễn giải": "Thanh toán tiền nước tháng 5/2024, Thông báo số CN24010643770 ngày 04/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/108",
+        "Diễn giải": "Thanh toán tiền phí thuê bao dịch vụ SMARTPOS, Theo hóa đơn số 9315 ngày 19/4/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/58",
+        "Diễn giải": "Thanh toán tiền nước tháng 5/2024, Thông báo số CN24010621693 ngày 04/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/65",
+        "Diễn giải": "Chuyển nộp đoàn phí công đoàn tháng 6/2024 (131)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/66",
+        "Diễn giải": "Chuyển nộp kinh phí công đoàn tháng 6/2024 (131)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/67",
+        "Diễn giải": "Thanh toán tiền bảo hiểm xã hội,bảo hiểm y tế tháng 6/2024 (131)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền bảo hiểm",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/68",
+        "Diễn giải": "Thanh toán tiền mua văn phòng phẩm, Hóa đơn số 00000699 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/68",
+        "Diễn giải": "Thanh toán tiền mua vật rẻ mau hỏng, Hóa đơn số 00000699 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/68",
+        "Diễn giải": "Thanh toán tiền mua văn phòng phẩm, Hóa đơn số 00000702 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/68",
+        "Diễn giải": "Thanh toán tiền mua vật rẻ mau hỏng, Hóa đơn số 00000702 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/109",
+        "Diễn giải": "Chuyển nộp 1% kinh phí công đoàn tháng 6/2024 (BV XP )",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí HĐ68"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/110",
+        "Diễn giải": "Chuyển nộp 2% kinh phí công đoàn tháng 6/2024 (BV XP)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí HĐ68"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/111",
+        "Diễn giải": "Thanh toán tiền bảo hiểm xã hội,bảo hiểm y tế tháng 6/2024 (BVXP)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền bảo hiểm",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí HĐ68"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/112",
+        "Diễn giải": "Chuyển nộp đoàn phí công đoàn tháng 6/2024 (XP)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/113",
+        "Diễn giải": "Chuyển nộp kinh phí công đoàn tháng 6/2024 (XP)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/114",
+        "Diễn giải": "Thanh toán tiền bảo hiểm xã hội,bảo hiểm y tế tháng 6/2024 (XP)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền bảo hiểm",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/115",
+        "Diễn giải": "Thanh toán tiền sửa cổng trạm Y tế phường Phước Hải, Hóa đơn số 00000026 ngày 10/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/59",
+        "Diễn giải": "Chuyển nộp đoàn phí công đoàn tháng 6/2024 (139)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/60",
+        "Diễn giải": "Chuyển nộp kinh phí công đoàn tháng 6/2024 (139)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/61",
+        "Diễn giải": "Thanh toán tiền bảo hiểm xã hội,bảo hiểm y tế tháng 6/2024 (139)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền bảo hiểm",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/38",
+        "Diễn giải": "Chuyển nộp đoàn phí công đoàn tháng 6/2024 (151)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/39",
+        "Diễn giải": "Chuyển nộp kinh phí công đoàn tháng 6/2024 (151)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền KPCĐ",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/40",
+        "Diễn giải": "Thanh toán tiền bảo hiểm xã hội,bảo hiểm y tế tháng 6/2024 (151)",
+        "Loại nghiệp vụ": "Chuyển khoản tiền bảo hiểm",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/116",
+        "Diễn giải": "Thanh toán tiền in sổ, biểu mẫu, phiếu xét nghiệm, Hóa đơn số 253 ngày 30/5/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/62",
+        "Diễn giải": "Thanh toán tiền mua văn phòng phẩm, Hóa đơn số 00000701 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/62",
+        "Diễn giải": "Thanh toán tiền mua vật rẻ mau hỏng, Hóa đơn số 00000701 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/42",
+        "Diễn giải": "Thanh toán tiền hỗ trợ người dân phục vụ, trang trí, dọn dẹp hội trường, dữ xe... truyền thông mở rộng tấm soát , chẩn đoán, điều trị một số bệnh, tật trước sinh và sơ sinh ( 54 người * 150.000 đồng/người/buổi = 8.100.000 đồng)",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh không tự chủ (nguồn 12): kinh phí CT Dân số"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/43",
+        "Diễn giải": "Thanh toán tiền giải khát truyền thông mở rộng tấm soát , chẩn đoán, điều trị một số bệnh, tật trước sinh và sơ sinh tại 27 xã, phường ( 2.160 người * 15.000 đồng/người/buổi = 32.400.000 đồng), Hóa đơn số 00000951 ngày 31/5/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh không tự chủ (nguồn 12): kinh phí CT Dân số"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/41",
+        "Diễn giải": "Thanh toán tiền báo cáo viên truyền thông mở rộng tấm soát , chẩn đoán, điều trị một số bệnh, tật trước sinh và sơ sinh ( 54 người * 300.000 đồng/người/buổi = 16.200.000 đồng)",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "NS Tỉnh không tự chủ (nguồn 12): kinh phí CT Dân số"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "131/69",
+        "Diễn giải": "Thanh toán tiền giải khát tập huấn Y tế học đường, (36 người * 15.000 đồng/người/buổi = 540.000 đồng), Hóa đơn số 00002239 ngày 18/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "151/44",
+        "Diễn giải": "Thanh toán tiền muua Market truyền thông mở rộng tấm soát , chẩn đoán, điều trị một số bệnh, tật trước sinh và sơ sinh tại 27 xã, phường, Hóa đơn số 158 ngày 07/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh không tự chủ (nguồn 12): kinh phí CT Dân số"
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/117",
+        "Diễn giải": "Thanh toán tiền sửa máy điều hòa nhiệt độ tại các trạm Y tế xã, phường, Hóa đơn số 155 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/117",
+        "Diễn giải": "Thanh toán tiền sửa máy điều hòa nhiệt độ tại các trạm Y tế xã, phường, Hóa đơn số 156 ngày 11/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/118",
+        "Diễn giải": "Thanh toán tiền sạc mực máy in, Hóa đơn số 359 ngày 25/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "132/118",
+        "Diễn giải": "Thanh toán tiền sửa máy vi tính, Hóa đơn số 359 ngày 25/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/63",
+        "Diễn giải": "Thanh toán tiền cước phí bưu chính, Hóa đơn số 4196 ngày 30/4/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Chuyển khoản kho bạc",
+        "Số CT": "139/64",
+        "Diễn giải": "Thanh toán tiền phô tô báo cáo phục vụ kiểm toán, Hóa đơn số 203 ngày 26/6/2024",
+        "Loại nghiệp vụ": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13): kinh phí định mức."
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PC132/01",
+        "Diễn giải": "Chi tiền nộp Thuế môn bài năm 2024 của Trung tâm y tế Thành phố Nha Trang.",
+        "Loại nghiệp vụ": "Nộp các khoản thuế khác",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PC132/02",
+        "Diễn giải": "Thanh toán tiền hỗ trợ Tết nguyên đán 2024 cho 77 nhân viên YTTB theo NQ 31/2016/NQ-HĐND tinh và công văn 52/STC-TCHCSN ngày 05/01/2024 (77 người * 400.000 đồng/người = 30.800.000 đồng)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh không tự chủ (nguồn 12): kinh phí LễTết"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PCQUY/01",
+        "Diễn giải": "Thanh toán tiền khen thưởng cho các tập thể hoàn thành xuất sắc nhiệm vụ năm 2023",
+        "Loại nghiệp vụ": "Chi khen thưởng",
+        "Nguồn": "Thu BHYT"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PCQUY/02",
+        "Diễn giải": "Thanh toán tiền thưởng tập thể hoàn thành xuất sắc nhiệm vụ, Theo Quyết định số 91/QĐ-TTyt ngày 04/3/2024",
+        "Loại nghiệp vụ": "Chi khen thưởng",
+        "Nguồn": "Thu lệ phí"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PCQUY/03",
+        "Diễn giải": "Thanh toán tiền thưởng tập thể hoàn thành xuất sắc nhiệm vụ, Theo Quyết định số 41/QĐ-TTyt ngày 22/12/2023",
+        "Loại nghiệp vụ": "Chi khen thưởng",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PCQUY/04",
+        "Diễn giải": "Thanh toán tiền hỗ trợ đoàn thanh niên hoạt động năm 2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PC131/01",
+        "Diễn giải": "Thanh toán tiền thuê nhân công phun hóa chất phòng chống dịch Sốt xuất huyết (56 công * 284.000 đồng/công =15.904.000 đồng)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "NS Tỉnh tự chủ (nguồn 13-kinh phí CD): SXH"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PC132/03",
+        "Diễn giải": "Chi tiền bốc xếp tài liệu, tài sản, vật tư y tế tại Phòng khám số 5 và Nhà hộ sinh trong 2 ngày 20+21/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu chi",
+        "Số CT": "PC132/04",
+        "Diễn giải": "Chi tiền nộp bảo hiểm xã hội còn thiếu",
+        "Loại nghiệp vụ": "Nộp bảo hiểm",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132/02",
+        "Diễn giải": "Thu hồi ứng",
+        "Loại nghiệp vụ": "Thu tiền đã tạm ứng cho người lao động",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132-VP/03",
+        "Diễn giải": "Nộp tiền thu phí của Phòng khám bệnh xã hội",
+        "Loại nghiệp vụ": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132/03",
+        "Diễn giải": "Phòng kế toán nộp thu hồi ứng của Lê trung Kiên",
+        "Loại nghiệp vụ": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132-VP/05",
+        "Diễn giải": "Nộp tiền thu phí của Phòng khám bệnh xã hội tháng 3/2024",
+        "Loại nghiệp vụ": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132-VP/06",
+        "Diễn giải": "Nộp tiền thu phí của Phòng khám bệnh xã hội tháng 4/2024",
+        "Loại nghiệp vụ": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132-VP/07",
+        "Diễn giải": "Nộp tiền thu phí của Phòng khám bệnh xã hội tháng 5/2024",
+        "Loại nghiệp vụ": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Phiếu thu",
+        "Số CT": "PT132-VP/09",
+        "Diễn giải": "Nộp tiền thu phí của Phòng khám bệnh xã hội tháng 6/2024",
+        "Loại nghiệp vụ": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Nguồn": "Thu viện phí"
+    },
+    {
+        "Loại CT": "Thu tiền gửi",
+        "Số CT": "Thu bhyt/01",
+        "Diễn giải": "bảo hiểm xã hội tạm ứng kinh phí khám chữa bệnh bảo hiểm y tế Quý 1/2024",
+        "Loại nghiệp vụ": "Thu tiền tạm ứng kinh phí KCB từ BHYT",
+        "Nguồn": "Thu BHYT"
+    },
+    {
+        "Loại CT": "Thu tiền gửi",
+        "Số CT": "TLX/01",
+        "Diễn giải": "Nhận tiền bán thanh lý xe ô tô 79C-0570",
+        "Loại nghiệp vụ": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Nguồn": "Thu khác"
+    },
+    {
+        "Loại CT": "Thu tiền gửi",
+        "Số CT": "TLX/02",
+        "Diễn giải": "Chuyển tiền thánh lý xe ô tô",
+        "Loại nghiệp vụ": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Nguồn": "Thu khác"
+    },
+    {
+        "Loại CT": "Thu tiền gửi",
+        "Số CT": "TL/03",
+        "Diễn giải": "Nhận tiền bán phế liệu thu hồi từ thanh lý TSCĐ",
+        "Loại nghiệp vụ": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Nguồn": "Thu khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0001",
+        "Diễn giải": "(TDL) Thanh toán tiền đưa sinh viên đi thực tập. Hóa đơn số 26439 ngày 27/12/2023. HĐ số HDD/EMBER-ĐHH ngày 15/12/2023; BBTL ngày 29/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0003",
+        "Diễn giải": "(TDL) Thanh toán tiền kiêm nhiệm công việc tại Trung tâm thực hành & liên kết doanh nghiệp theo HĐGK ngày 01/01/2023; BBTL ngày 30/9/2023",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0004",
+        "Diễn giải": "(TDL) Thanh toán tiền kiêm nhiệm công việc tại Trung tâm thực hành & liên kết doanh nghiệp theo HĐGK ngày 01/01/2023; BBTL ngày 30/12/2023",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0005",
+        "Diễn giải": "(TDL) Thanh toán tiền kiêm nhiệm công việc tại Phòng ĐT - CTSV theo HĐGK ngày 01/01/2023; BBTL ngày 30/12/2023",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0006",
+        "Diễn giải": "(TDL) Thanh toán tiền tổ chức chương trình tình nguyện áo ấm mùa đông lần thứ X. HĐ số 15/HĐ-TDL ngày 27/12/2023; BBTL ngày 28/12/2023. Hóa đơn số 170 ngày 28/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0007",
+        "Diễn giải": "(TDL) Thanh toán tiền may đồng phục tốt nghiệp. HĐ số 01/HĐKT ngày 18/12/2023; BBTL ngày 27/12/2023. Hóa đơn số 71 ngày 29/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0008",
+        "Diễn giải": "(TDL) Thanh toán tiền giặt áo mũ cử nhân. HĐ số 01/HĐKT ngày 11/12/2023; BBTL ngày 10/12/2023. Hóa đơn số 4314 ngày 20/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0001",
+        "Diễn giải": "Thanh toán tiền PC T11, 12 năm 2023 cho Lãnh đạo ĐHH về công tác quản lý điều hành",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0009",
+        "Diễn giải": "(TDL) Thanh toán tiền  mua thuốc cấp phát sinh viên. Hóa đơn số 533 ngày 18/12/2023. HĐ số 01/HĐKT ngày 12/12/23; BBTL ngày 18/12/23 (Chuyển lại)",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0010",
+        "Diễn giải": "(TDL) Thanh toán tiền  thuê hội trường tổ chức cuộc thi sinh viên giỏi nghiệp vụ khách sạn. Hóa đơn số 25706 ngày 19/12/2023. HĐ số 181223 ngày 18/12/23; BBTL ngày 19/12/23",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0011",
+        "Diễn giải": "(TDL) Thanh toán tiền  làm thêm giờ trực phòng y tế và làm thẻ bảo hiểm y tế cho sinh viên (10 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0012",
+        "Diễn giải": "(TDL) Thanh toán tiền  vệ sinh nước uống trên  xe ô tô 75A-00535. HĐGK ngày 30/9/2023; BBTL ngày  31/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0013",
+        "Diễn giải": "(TDL) Thanh toán tiền giám sát cơ sở vật chất tại số 2 Lê Lợi. HĐGK ngày 01/12/2023; BBTL ngày  29/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0014",
+        "Diễn giải": "(TDL) Thanh toán tiền  thuê âm thanh tổ chức cuộc thi tìm kiếm tài năng MC HUHT 2023. Hóa đơn số 107 ngày 28/12/2023. HĐ số 27122023 ngày 27/12/23; BBTL ngày 28/12/23",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0015",
+        "Diễn giải": "(TDL) Thanh toán tiền  điện tháng 12 năm 2023. Theo Thông báo số 3508725, 3503122, 3488572 ngày 31/12/2023",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0016",
+        "Diễn giải": "(TDL) Thanh toán tiền  đề tài cấp Trường năm 2021. HĐ số 86/HĐ-ĐHH ngày 24/5/2023; BKKLCVHT ngày 09/9/2023 (hồ sơ gốc nộp tại kho bạc)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0018",
+        "Diễn giải": "(TDL) Thanh toán tiền mua bóng đèn năng lượng mặt trời cho chiến dịch mùa hè xanh năm 2023. HĐ số 2472023/HĐ-TDL ngày 24/7/2023; BBTL ngày 07/8/2023. Hóa đơn số 76 ngày 11/8/23 (Chuyển lại)",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0019",
+        "Diễn giải": "(TDL) Thanh toán tiền sửa chữa  và đổ mực máy in. Hóa đơn số 4133 ngày 30/11/2023.",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0020",
+        "Diễn giải": "(TDL) Thanh toán tiền thuế thu nhập cá nhân tháng 12 năm 2023",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập cá nhân",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0002",
+        "Diễn giải": "Ngân hàng VCB thu phí tháng 01 năm 2024",
+        "Loại nghiệp vụ": "Chi phí tài chính",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0021",
+        "Diễn giải": "(TDL) Thanh toán tiền bảo trì Web và hệ thống máy chủ TDL. HĐGK ngày 31/8/2023; BBTL ngày 31/12/2023",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0022",
+        "Diễn giải": "(TDL) Thanh toán tiền bảo trì điện nước, sửa chữa nhỏ trang thiết bị trong khuôn viên TDL. HĐGK số 20/HĐGK ngày 30/9/2023; BBTL ngày 31/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0023",
+        "Diễn giải": "(TDL) Thanh toán tiền kiểm tra, sửa chữa nhỏ CSVC, quản lý phòng thực hành máy tính tại TDL. HĐGK số 01/HĐGK ngày 01/12/2023; BBTL ngày 29/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0024",
+        "Diễn giải": "(TDL) Thanh toán tiền phát sinh may đồng phục. Hóa đơn số 652 ngày 28/8/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0025",
+        "Diễn giải": "(TDL) Thanh toán tiền chi bổ sung thu nhập tăng thêm năm 2023 theo QĐ số 107/QĐ-DHH ngày 30/01/2024. Kèm theo bảng thanh toán lập ngày 01/02/2023",
+        "Loại nghiệp vụ": "Chi bổ sung thu nhập ",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0026",
+        "Diễn giải": "(TDL) Thanh toán tiền điện sinh hoạt tháng 01 năm 2024. Theo thông báo số 3508725; 3503122; 3488572 ngày 31/01/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0027",
+        "Diễn giải": "(TDL) Thanh toán tiền thuê địa điểm tổ chức cuộc thi sáng tạo nội dung truyền thông. HĐ số 84 ngày 07/01/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0028",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp khách. HĐ số 24 ngày 05/01/2024 (20 người)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0029",
+        "Diễn giải": "(TDL) Thanh toán tiền nước tháng 01 năm 2023. HĐ số 41505 ngày 22/01/2024; 25807 ngày 19/01/2024.",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0030",
+        "Diễn giải": "(TDL) Thanh toán tiền in ấn phục vụ cuộc thi khởi nghiệp đổi mới sáng tạo sinh viên TDL. HĐ số 9 ngày 16/01/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0031",
+        "Diễn giải": "(TDL) Thanh toán tiền nước uống phục vụ cuộc thi khởi nghiệp đổi mới sáng tạo sinh viên TDL. HĐ số 102 ngày 15/01/2024.",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0032",
+        "Diễn giải": "(TDL) Thanh toán tiền mua hoa phục vụ cuộc thi khởi nghiệp đổi mới sáng tạo sinh viên TDL. HĐ số 28 ngày 13/01/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0033",
+        "Diễn giải": "(TDL) Thanh toán tiền mua hoa phục vụ cuộc thi sáng tạo nội dung truyền thông. HĐ số 22 ngày 10/01/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0034",
+        "Diễn giải": "(TDL) Thanh toán tiền in ấn phục vụ cuộc thi sáng tạo nội dung truyền thông. HĐ số 6 ngày 11/01/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0035",
+        "Diễn giải": "(TDL) Thanh toán tiền coi thi của CB, GV đợt 1, học kỳ 1 năm học 23-24. Kèm theo bảng thanh toán lập ngày 02/02/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0036",
+        "Diễn giải": "(TDL) Thanh toán tiền dọn dẹp vệ sinh tại số 01 Điện Biên Phủ. HĐ số 08/HĐGK/2023 ngày 01/12/2023; BBTL ngày 29/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0036",
+        "Diễn giải": "THuế thu nhập cá nhân",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập cá nhân",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0003",
+        "Diễn giải": "Thuế thu nhập cá nhân",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập cá nhân",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0004",
+        "Diễn giải": "(TDL) Thanh toán tiền hỗ trợ LĐ ĐHH về công tác quản lý điều hành các HĐ của TDL",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0004",
+        "Diễn giải": "Phí chuyển khoản",
+        "Loại nghiệp vụ": "Chi phí tài chính",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0037",
+        "Diễn giải": "(TDL) Thanh toán tiền thuê Hội trường tổ chức cuộc thi khởi nghiệp đổi mới sáng tạo sinh viên TDL. HĐ số 1001224 ngày 31/12/2023; BBTL ngày 10/01/2024. Hóa đơn số 864 ngày 10/01/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0039",
+        "Diễn giải": "(TDL) Thanh toán tiền mua hoa phục vụ cuộc thi sáng tạo nội dung truyền thông. HĐ số 22 ngày 10/01/2024 (Chuyển lại)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0040",
+        "Diễn giải": "(TDL) Thanh toán tiền mua hoa phục vụ cuộc thi khởi nghiệp đổi mới sáng tạo sinh viên TDL. HĐ số 28 ngày 13/01/2024 (Chuyển lại)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0041",
+        "Diễn giải": "(TDL) Thanh toán tiền thuế thu nhập cá nhân tháng 01 năm 2024",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập cá nhân",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0005",
+        "Diễn giải": "Ngân hàng VCB thu phí tháng 02 năm 2024",
+        "Loại nghiệp vụ": "Chi phí tài chính",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG ĐHH01",
+        "Diễn giải": "TDL chuyển bù trừ kinh phí giảng dạy học phần GDTC cho SV  miễn giảm Lào và sinh viên miễn giảm-ghi tăng TKĐHH (GDTC), ghi giảm TK TDL",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0042",
+        "Diễn giải": "(TDL) Thanh toán tiền học bổng cho sinh viên K56, HKII năm học 22-23. Kèm theo bảng thanh toán lập ngày 02/02/2023",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0043",
+        "Diễn giải": "(TDL) Thanh toán tiền học bổng cho sinh viên K54,55 HKI năm học 23-24. Kèm theo bảng thanh toán lập ngày 02/02/2023",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG SHB0011",
+        "Diễn giải": "Thanh toán  tiền học bổng cho sinh viên",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0044",
+        "Diễn giải": "(TDL) Thanh toán tiền mua tranh hoa giấy tặng cho các đoàn khách quốc tế. HĐ số 10 ngày 17/01/2024 (10 khách hạng B)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0045",
+        "Diễn giải": "(TDL) Thanh toán tiền phối hợp giảng dạy các lớp học chính quy học kỳ II năm học 2022-2023. HĐ số 05/HĐGD-TDL ngày 05/01/2023; BBTL ngày 29/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0006",
+        "Diễn giải": "(TDL) Thanh toán tiền hỗ trợ LĐ ĐHH về công tác quản lý điều hành các HĐ của TDL tháng 2.24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0046",
+        "Diễn giải": "(TDL) Thanh toán tiền cước dịch vụ viễn thông - CNTT tháng 01 năm 2024. Hóa đơn số 121716 ngày 01/02/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0048",
+        "Diễn giải": "(TDL) Thanh toán tiền nước tại 22 Lâm Hoằng + 03 Lê Lợi. Hóa đơn số 152420 ngày 20/02/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0049",
+        "Diễn giải": "(TDL) Thanh toán tiền điện sinh hoạt T02 năm 2024. Thông báo số 3508725; 3503122 ngày 29/02/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0050",
+        "Diễn giải": "(TDL) Thanh toán tiền nước tháng 12 tại 22 Lâm Hoằng + 03 Lê Lợi. Hóa đơn số 1605885 ngày 19/12/2023; 1645074 ngày 25/12/2023",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0051",
+        "Diễn giải": "(TDL) Thanh toán tiền cước dịch vụ viễn thông - CNTT tháng 12 năm 2023. Hóa đơn số 38676 ngày 01/01/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0052",
+        "Diễn giải": "(TDL) Thanh toán tiền sửa chữa máy photo phục vụ công tác đào tạo. Hóa đơn số 143 ngày 23/01/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0054",
+        "Diễn giải": "(TDL) Thanh toán tiền thuế thu nhập cá nhân tháng 02 năm 2024",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập cá nhân",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0055",
+        "Diễn giải": "(TDL) Thanh toán tiền cước dịch vụ viễn thông - CNTT tháng 02 năm 2024. Hóa đơn số 218344 ngày 01/3/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0056",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ mở cửa phòng đọc phục vụ sinh viên ngày thứ 7. Theo QCCTNB (8 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0057",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ nhập thông tin mua thẻ bảo hiểm y tế cho sinh viên. Theo QCCTNB (10 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0058",
+        "Diễn giải": "(TDL) Thanh toán tiền sơn tường rào. HĐ số 20/HĐKT ngày 28/12/23; BBTL ngày 14/3/2024. Hóa đơn số 17 ngày 21/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0059",
+        "Diễn giải": "(TDL) Thanh toán tiền sửa chữa phòng khảo thí phục vụ công tác đào tạo. HĐ số 25/HĐKT ngày 29/12/23; BBTL ngày 15/3/2024. Hóa đơn số 16 ngày 21/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0007",
+        "Diễn giải": "Ngân hàng VCB thu phí tháng 3 năm 2024",
+        "Loại nghiệp vụ": "Chi phí tài chính",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG SHB0014",
+        "Diễn giải": "Thanh toán tiền thuế thu nhập doanh nghiệp",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập doanh nghiệp",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0060",
+        "Diễn giải": "Thanh toán tiền sửa chữa phòng họp TDL. HĐ số 10/HĐKT ngày 27/12/23; BBTL ngày 22/3/2024. Hóa đơn số 108 ngày 26/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0061",
+        "Diễn giải": "(TDL) Thanh toán tiền mua rương đựng chứng từ. Hóa đơn số 13 ngày 22/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0062",
+        "Diễn giải": "(TDL) Thanh toán tiền Hội phí liên chi hội thư viện ĐH phía Nam năm 2024. Thông báo số 05/TB-LCHTVĐhọc phíN ngày 01/3/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0064",
+        "Diễn giải": "(TDL) Thanh toán tiền in ấn, photo hồ sơ . Hóa đơn số 3 ngày 08/01/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0065",
+        "Diễn giải": "(TDL) Thanh toán tiền xăng xe 75A-00535 . Hóa đơn số 506594 ngày 05/12/2023; 541485 ngày 27/12/2023; 1502 ngày 02/01/2024; 30971 ngày 19/01/2024; 34010 ngày 21/01/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0066",
+        "Diễn giải": "(TDL) Thanh toán tiền đóng mở của giảng đường theo HĐ số 22/HĐGK/2023 ngày 30/11/23; BBTL ngày 01/4/24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0066a",
+        "Diễn giải": "(TDL) Thanh toán tiền đóng mở của giảng đường theo HĐ số 23/HĐGK/2023 ngày 30/11/23; BBTL ngày 01/4/24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0067",
+        "Diễn giải": "(TDL) Thanh toán tiền đóng mở của giảng đường theo HĐ số 21/HĐGK/2023 ngày 30/11/23; BBTL ngày 01/4/24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0068",
+        "Diễn giải": "(TDL) Thanh toán tiền bảo trì điện nước theo HĐ số 24/HĐGK/2023 ngày 31/12/23; BBTL ngày 01/4/24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0069",
+        "Diễn giải": "(TDL) Thanh toán tiền  vệ sinh nước uống trên  xe ô tô 75A-00535. HĐGK số 25/HĐGK/2023 ngày 31/12/2023; BBTL ngày  01/4/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0070",
+        "Diễn giải": "(TDL) Thanh toán tiền giám sát cơ sở vật chất tại số 2 Lê Lợi. HĐGK số 02/HĐGK/2024 ngày 29/12/2023; BBTL ngày  31/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0071",
+        "Diễn giải": "(TDL) Thanh toán tiền đóng mở cửa vệ sinh phòng đợi giảng viên theo HĐGK số 20/HĐGK/2023 ngày 30/11/2023; BBTL ngày  01/4/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0072",
+        "Diễn giải": "(TDL) Thanh toán tiền cước dịch vụ viễn thông - CNTT tháng 03 năm 2024. Hóa đơn số 308310 ngày 02/4/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0073",
+        "Diễn giải": "(TDL) Thanh toán tiền nước tháng 3 tại 22 Lâm Hoằng + 02 Lê Lợi. Hóa đơn số 319698 ngày 19/3/24; 292523 ngày 19/3/24",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0074",
+        "Diễn giải": "(TDL) Thanh toán tiền xăng xe 75A-00535 . Hóa đơn số 21041 ngày 14/01/24; 53216 ngày 01/02/24; 58050 ngày 04/02/24; 60608 ngày 06/02/24; 66080 ngày 13/02/24",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0075",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp khách. Hóa đơn số 1087 ngày 29/3/2024 (21 suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0076",
+        "Diễn giải": "(TDL) Thanh toán tiền điện sinh hoạt T3 năm 2024. Thông báo số 930417; 935068 ngày 01/4/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0077",
+        "Diễn giải": "(TDL) Thanh toán tiền mua nước uống phục vụ giảng đường quý I năm 2024. Hóa đơn số 51513;51514;  51515 ngày 25/3/24; 68 ngày 18/3/24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0078",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp khách. Hóa đơn số 551 ngày 03/4/2024 (21 suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0079",
+        "Diễn giải": "(TDL) Thanh toán tiền dọn dẹp vệ sinh tại số 01 Điện Biên Phủ. HĐ số 01/HĐGK/2023 ngày 29/12/2023; BBTL ngày 31/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0080",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ Quý IV năm 2023 & Quý I năm 2024. Theo QCCTNB (24 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0081",
+        "Diễn giải": "(TDL) Thanh toán tiền in bìa đóng chứng từ. Hóa đơn số 120 ngày 11/4/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0082",
+        "Diễn giải": "(TDL) Thanh toán tiền sửa chữa  và đổ mực máy in. Hóa đơn số 1328 ngày 03/4/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0083",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ theo dõi lịch dạy GV, nhập phần mềm QLSV. Theo QCCTNB (13 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0084",
+        "Diễn giải": "(TDL) Thanh toán tiền gia hạn phần mềm Mimosa online. Hóa đơn số 97085 ngày 16/4/2024. HĐ số HĐBH-MISA-HAN/2024/1204 ngày 12/4/2024; BBTL ngày 16/4/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0085",
+        "Diễn giải": "(TDL) Thanh toán tiền xăng xe 75A-00535 . Hóa đơn số 100458 ngày 06/3/24; 112808 ngày 13/3/24; 123474 ngày 19/3/24; 134363 ngày 25/3/24; 141142 ngày 28/3/24; 142902 ngày 29/3/24",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0008",
+        "Diễn giải": "Ngân hàng VCB thu phí tháng 4 năm 2024",
+        "Loại nghiệp vụ": "Chi phí tài chính",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0086",
+        "Diễn giải": "(TDL) Thanh toán tiền tạm ứng đề tai KHCN cấp ĐHH (Hồ sơ gỗ nộp tại kho bạc)",
+        "Loại nghiệp vụ": "Tạm ứng cho người lao động trong đơn vị hoặc cho đầu mối chi tiêu",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0087",
+        "Diễn giải": "(TDL) Thanh toán tiền học phí lớp bồi dưỡng nghiệp vụ QLNN theo QĐ số 1553a/QĐ-ĐHH ngày 26/10/2023. Hóa đơn số 2654 ngày 06/12/2023",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0088",
+        "Diễn giải": "(TDL) Thanh toán tiền học phí lớp bồi dưỡng nghiệp vụ QLNN theo QĐ số 1553a/QĐ-ĐHH ngày 26/10/2023. Hóa đơn số 2650 ngày 06/12/2023",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0089",
+        "Diễn giải": "(TDL) Thanh toán tiền học phí lớp bồi dưỡng nghiệp vụ QLNN theo QĐ số 1553a/QĐ-ĐHH ngày 26/10/2023. Hóa đơn số 2651 ngày 06/12/2023",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0090",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ mở cửa phòng đọc phục vụ sinh viên ngày thứ 7. Theo QCCTNB (12 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0091",
+        "Diễn giải": "(TDL) Thanh toán tiền cước dịch vụ viễn thông - CNTT tháng 4 năm 2024. Hóa đơn số 398037 ngày 01/5/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0092",
+        "Diễn giải": "(TDL) Thanh toán tiền nước tháng 4 tại 22 Lâm Hoằng + 02 Lê Lợi. Hóa đơn số 478690 ngày 23/4/24; 478740 ngày 23/4/24",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0093",
+        "Diễn giải": "(TDL) Thanh toán tiền điện sinh hoạt T4 năm 2024. Thông báo số 930417; 935068 ngày 30/4/2024",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0094",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp đoàn Học viện Hàng không Việt Nam về làm việc tại đơn vị. Hóa đơn số 1493 ngày 23/4/2024 (21 suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0095",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp đoànTrường ĐH Gifu Nhật Bản về làm việc tại đơn vị. Hóa đơn số 776 ngày 11/3/2024 (14suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0096",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp đoànTrường ĐH Michigan State Hoa Kỳ về làm việc tại đơn vị. Hóa đơn số 1334 ngày 25/4/2024 (16 suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0097",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp đoàn Fulbright về làm việc tại đơn vị. Hóa đơn số 1627 ngày 30/4/2024 (9 suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0098",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ trực y tế cho sinh viên học. Theo QCCTNB (10 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0099",
+        "Diễn giải": "(TDL) Thanh toán tiền bảo trì Web và hệ thống máy chủ TDL. HĐGK số 30/HĐGK/2023 ngày 31/12/2023; BBTL ngày 02/5/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0100",
+        "Diễn giải": "(TDL) Thanh toán tiền làm ngoài giờ trực y tế cho sinh viên học. Theo QCCTNB (6 buổi * 150.000 đ/buổi)",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0101",
+        "Diễn giải": "(TDL) Thanh toán tiền xăng xe 75A-00535 . Hóa đơn số 182152 ngày 19/4/24; 189268 ngày 23/4/24; 10967 ngày 25/4/24; 200910 ngày 29/4/24; 207646 ngày 03/5/24; 210969 ngày 05/05/24",
+        "Loại nghiệp vụ": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0102",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng đánh giá luận án tiến sĩ cấp ĐHH theo HĐ số 03/HĐGD-TDL ngày 20/3/2024; BBTL ngày 29/3/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0103",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng đánh giá luận án tiến sĩ cấp ĐHH theo HĐ số 05/HĐGD-TDL ngày 20/3/2024; BBTL ngày 29/3/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0104",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng đánh giá luận án tiến sĩ cấp ĐHH theo HĐ số 01/HĐGD-TDL ngày 20/3/2024; BBTL ngày 29/3/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0105",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng đánh giá luận án tiến sĩ cấp ĐHH theo HĐ số 04/HĐGD-TDL ngày 20/3/2024; BBTL ngày 29/3/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0106",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng đánh giá luận án tiến sĩ cấp ĐHH theo HĐ số 02/HĐGD-TDL ngày 20/3/2024; BBTL ngày 29/3/2024.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0107",
+        "Diễn giải": "(TDL) Thanh toán tiền giảng dạy lớp chính quy HKI NH 2023-2024 theo HĐ số 03/HĐKT ngày 06/9/2023; BBTL ngày 30/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0108",
+        "Diễn giải": "(TDL) Thanh toán tiền thuê phòng ở cho chuyên gia Fulbright về làm việc tại TDL. HĐ số HĐDV 20240417-01 ngày 17/4/2024; BBTL ngày 03/5/2024; Hóa đơn số 2847 ngày 03/5/2024 (12 đêm * 1 phòng * 1.200.000đ/phòng/người)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0109",
+        "Diễn giải": "(TDL) Thanh toán tiền giảng dạy lớp chính quy HKI NH 2023-2024 theo HĐ số 04/HĐKT ngày 06/9/2023; BBTL ngày 30/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0110",
+        "Diễn giải": "(TDL) Thanh toán tiền dọn dẹp vệ sinh tại số 01 Điện Biên Phủ. HĐ số 02/HĐGK/2024 ngày 01/4/2024; BBTL ngày 26/4/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0111",
+        "Diễn giải": "(TDL) Thanh toán tiền tiếp đoàn Hiệp hội du lịch tỉnh Khánh Hòa về làm việc tại đơn vị. Hóa đơn số 304 ngày 07/5/2024 (10 suất)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0112",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng đánh giá luận án tiến sĩ cấp ĐHH. Kèm theo bảng thanh toán lập ngày 15/5/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0113",
+        "Diễn giải": "(TDL) Thanh toán tiền coi thi HKI, đợt 2 năm học 2023-2024. Kèm theo bảng thanh toán lập ngày 15/5/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0114",
+        "Diễn giải": "(TDL) Thanh toán tiền trực lễ Giỗ tổ Hùng Vương. Kèm theo bảng thanh toán lập ngày 15/5/2024",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0115",
+        "Diễn giải": "(TDL) Thanh toán tiền trực Tết Dương lịch 2024. Kèm theo bảng thanh toán lập ngày 15/5/2024",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0116",
+        "Diễn giải": "(TDL) Thanh toán tiền Hội đồng nghiệm thu giáo trình. Kèm theo bảng thanh toán lập ngày 15/5/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0009",
+        "Diễn giải": "(TDL) Thanh toán tiền tổ chức hoạt động ngày 8.3",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0010",
+        "Diễn giải": "(TDL) Thanh toán tiền hỗ trợ LĐ ĐHH về công tác quản lý điều hành các HĐ của TDL tháng 3+4.24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0011",
+        "Diễn giải": "(TDL) Thanh toán tiền Truy lĩnh hỗ trợ LĐ ĐHH về công tác quản lý điều hành các HĐ của TDL tháng 1+2.24",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0012",
+        "Diễn giải": "(TDL) Thanh toán tiền hội đồng nghiệm thu giáo trình",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0118",
+        "Diễn giải": "(TDL) Thanh toán tiền trực Tết Âm lịch 2024. Kèm theo bảng thanh toán lập ngày 16/5/2024",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0119",
+        "Diễn giải": "(TDL) Thanh toán tiền thuế thu nhập cá nhân tháng 3 và tháng 4 năm 2024",
+        "Loại nghiệp vụ": "Nộp thuế thu nhập cá nhân",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0120",
+        "Diễn giải": "(TDL) Thanh toán tiền mua dây mạng cải tạo phòng máy thực hành TDL. Hóa đơn số 5 ngày 25/4/2024. HĐ số 01/2024/HĐKT ngày 15/4/24; BBTL ngày 23/4/24.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0121",
+        "Diễn giải": "(TDL) Thanh toán tiền mua quạt đứng 4 chân phục vụ công tác đào tạo tại TDL. Hóa đơn số 31 ngày 10/5/2024. HĐ số 03/2024/HĐKT ngày 06/5/24; BBTL ngày 09/5/24.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0123",
+        "Diễn giải": "(TDL) Thanh toán tiền sửa chữa mặt bàn, ghế phục vụ công tác đào tạo. Hóa đơn số 21 ngày 17/5/2024. HĐ số 02/2024/HĐKT ngày 09/5/24; BBTL ngày 13/5/24.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0124",
+        "Diễn giải": "(TDL) Thanh toán tiền giảng dạy lớp chính quy HKI NH 2023-2024 theo HĐ số 01/HĐKT ngày 10/9/2023; BBTL ngày 30/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0125",
+        "Diễn giải": "(TDL) Thanh toán tiền giảng dạy lớp chính quy HKI NH 2023-2024 theo HĐ số 02/HĐKT ngày 10/9/2023; BBTL ngày 30/3/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0126",
+        "Diễn giải": "(TDL) Thanh toán tiền lắp điều hòa phục vụ công tác đào tạo. Hóa đơn số 28 ngày 07/5/2024. HĐ số 02/2024/HĐKT ngày 25/4/24; BBTL ngày 06/5/24.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG VCB0013",
+        "Diễn giải": "Ngân hàng VCB thu phí tháng 5 năm 2024",
+        "Loại nghiệp vụ": "Chi phí tài chính",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0127",
+        "Diễn giải": "(TDL) Thanh toán tiền trực Lễ 30/4; 01/5 & Chiến thắng Điện Biên Phủ 07/5. Kèm theo bảng thanh toán lập ngày 27/5/2024",
+        "Loại nghiệp vụ": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0089b",
+        "Diễn giải": "(TDL) Thanh toán tiền thẩm tra thiết kế công trình Cải tạo ốp tôn chống thấm và sơn tường trong nhà TDL. HĐ số 05/2023/HĐ-TTr ngày 06/11/2023; BBXĐGTKLCVHT ngày 20/11/2023. Hóa đơn số 246 ngày 20/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0090b",
+        "Diễn giải": "(TDL) Thanh toán tiền lập báo cáo KTKT công trình Cải tạo ốp tôn chống thấm và sơn tường trong nhà TDL. HĐ số 05/2023/HĐ-BCKTKT ngày 16/10/2023; BBXĐGTKLCVHT ngày 03/11/2023. Hóa đơn số 6 ngày 19/12/2023",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0136",
+        "Diễn giải": "(TDL) Thanh toán tiền giảng dạy cao học HKIII khóa 8 đợt 2 theo HĐ số 01/HĐKT ngày 05/9/2023; BBTL ngày 02/4/2024",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0128",
+        "Diễn giải": "(TDL) Thanh toán tiền đề tài KHCN cấp Trường. HĐ số 113/HĐ-ĐHH ngày 24/5/2022; BKXĐKLCV ngày 09/7/2023 (Hồ sơ gốc nộp tại kho bạc)",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0129",
+        "Diễn giải": "(TDL) Thanh toán tiền đề tài KHCN cấp Trường. HĐ số 112/HĐ-ĐHH ngày 24/5/2022; BKXĐKLCV ngày 09/7/2023.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    },
+    {
+        "Loại CT": "Chi tiền gửi",
+        "Số CT": "CTG 0130",
+        "Diễn giải": "(TDL) Thanh toán tiền đề tài KHCN cấp ĐHH. HĐ số 01/HĐ-ĐHH ngày 15/9/2020; BKXĐKLCV ngày 06/7/2023.",
+        "Loại nghiệp vụ": "Chi khác cho các hoạt động",
+        "Nguồn": "Nguồn khác"
+    }
+]
