@@ -1,5 +1,5 @@
 import argparse
-from transformers import AutoConfig, AutoModel, AutoTokenizer
+from transformers import AutoConfig, AutoModelForSequenceClassification, AutoTokenizer
 from data_loader import QGDataset, MCQ_QGDataset, DistractorDataset
 from trainer import Trainer
 import pandas as pd
@@ -10,7 +10,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--epochs", type=int, default=1)
     parser.add_argument("--learning_rate", type=float, default=0)
-    parser.add_argument("--max_length", type=int, default=512)
+    parser.add_argument("--max_length", type=int, default=256)
     parser.add_argument("--pad_mask_id", type=int, default=-100)
     parser.add_argument("--qa_model", type=str, default="./bkai-encoder-labeling")
     parser.add_argument("--qa_mcq_model", type=str, default="./t5-base-question-mcq-generator")
@@ -26,9 +26,9 @@ def get_tokenizer(checkpoint: str) -> AutoTokenizer:
     tokenizer.add_special_tokens({'additional_special_tokens': ['<sep>']})
     return tokenizer
 
-def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> AutoModel:
+def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> AutoModelForSequenceClassification:
     config = AutoConfig.from_pretrained(checkpoint)
-    model = AutoModel.from_pretrained(checkpoint, config=config)
+    model = AutoModelForSequenceClassification.from_pretrained(checkpoint, config=config)
     model.resize_token_embeddings(len(tokenizer))
     model = model.to(device)
     return model
