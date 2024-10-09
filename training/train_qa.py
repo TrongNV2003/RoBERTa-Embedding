@@ -27,7 +27,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--save_dir", type=str, default="./bkai-encoder-labeling")
     parser.add_argument("--train_batch_size", type=int, default=4)
     parser.add_argument("--valid_batch_size", type=int, default=4)
-    parser.add_argument("--log_file", type=str, default="result/qg_training_log.csv")
+    parser.add_argument("--log_file", type=str, default="result/training.csv")
     parser.add_argument("--train_file", type=str, default="dataset/train.json")
     parser.add_argument("--valid_file", type=str, default="dataset/valid.json")
     parser.add_argument("--seed", type=int, default=42)
