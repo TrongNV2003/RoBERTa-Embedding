@@ -30,6 +30,7 @@ class Trainer:
         device: str,
         epochs: int,
         learning_rate: float,
+        weight_decay: float,
         model: torch.nn.Module,
         tokenizer: AutoTokenizer,
         pin_memory: bool,
@@ -69,7 +70,7 @@ class Trainer:
         )
         self.tokenizer = tokenizer
         self.model = model.to(self.device)
-        self.optimizer = AdamW(self.model.parameters(), lr=learning_rate)
+        self.optimizer = AdamW(self.model.parameters(), lr=learning_rate, weight_decay=weight_decay)
         self.train_loss = AverageMeter()
         self.evaluate_on_accuracy = evaluate_on_accuracy
         if evaluate_on_accuracy:
