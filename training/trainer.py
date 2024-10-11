@@ -196,7 +196,6 @@ from sklearn.metrics import accuracy_score
 from transformers import AutoTokenizer
 import csv
 from utils import AverageMeter
-from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers.losses import CosineSimilarityLoss
 
 class Logger:
@@ -238,7 +237,6 @@ class Trainer:
         self.train_batch_size = train_batch_size
         self.valid_batch_size = valid_batch_size
         
-        
         # Define the fieldnames for the CSV file
         self.fieldnames = ['epoch', 'train_loss', 'valid_loss', 'valid_accuracy']
 
@@ -254,7 +252,7 @@ class Trainer:
         )
         self.valid_loader = DataLoader(
             valid_set,
-            batch_size=train_batch_size,
+            batch_size=valid_batch_size,
             num_workers=dataloader_workers,
             pin_memory=pin_memory,
             shuffle=False
@@ -286,7 +284,7 @@ class Trainer:
                     output = self.model(**data)
 
                     text_embeddings = output.last_hidden_state[:, 0, :]
-                    label_embeddings = output.last_hidden_state[:, 0, :]
+                    label_embeddings = output.last_hidden_state[:, 0, :]  # Giả định nhãn là đầu ra
 
                     loss = self.contrastive_loss(text_embeddings, label_embeddings)
 
@@ -312,7 +310,7 @@ class Trainer:
                     self.best_valid_score = valid_loss
                     self._save()
                 self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-                                    'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
+                                 'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
                 
             else:
                 valid_loss = self.evaluate(self.valid_loader)
@@ -322,13 +320,12 @@ class Trainer:
                     self.best_valid_score = valid_loss
                     self._save()
                 self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-                                    'valid_loss': valid_loss, 'valid_accuracy': None})
+                                 'valid_loss': valid_loss, 'valid_accuracy': None})
 
     def contrastive_loss(self, text_embeddings, label_embeddings, temperature=0.07):
         similarity_matrix = torch.matmul(text_embeddings, label_embeddings.t()) / temperature
         labels = torch.arange(similarity_matrix.size(0)).to(similarity_matrix.device)
         return torch.nn.CrossEntropyLoss()(similarity_matrix, labels)
-
 
     @torch.no_grad()
     def evaluate(self, dataloader: DataLoader) -> float:
@@ -338,9 +335,7 @@ class Trainer:
             tepoch.set_description("validation")
             for data in dataloader:
                 data = {key: value.to(self.device) for key, value in data.items()}
-                
                 output = self.model(**data)
-                
                 text_embeddings = output.last_hidden_state[:, 0, :]
                 label_embeddings = output.last_hidden_state[:, 0, :]
 
@@ -366,33 +361,6 @@ class Trainer:
                 tepoch.set_postfix({"valid_acc": accuracy.avg})
                 tepoch.update(1)
         return accuracy.avg
-
-    @torch.no_grad()
-    def qg_accuracy(self, dataloader: DataLoader) -> float:
-        self.model.eval()
-        accuracies = []
-        with tqdm(total=len(dataloader), unit="batches") as tepoch:
-            tepoch.set_description("validation")
-            for data in dataloader:
-                data = {key: value.to(self.device) for key, value in data.items()}
-                output = self.model(**data)
-                preds = torch.argmax(output.logits, dim=-1)
-                labels = data["labels"].to(preds.device)
-
-                # Đảm bảo rằng preds và labels có cùng kích thước
-                assert preds.shape == labels.shape, f"Shape mismatch: preds {preds.shape}, labels {labels.shape}"
-
-                # Tính accuracy cho mỗi sample
-                for i in range(labels.shape[1]):  # assuming the second dimension is the number of outputs
-                    score = accuracy_score(labels[:, i].cpu(), preds[:, i].cpu())
-                    accuracies.append(score)
-                
-                avg_accuracy = np.mean(accuracies)
-                tepoch.set_postfix({"valid_acc": (avg_accuracy)*10})
-                tepoch.update(1)
-
-        overall_accuracy = np.mean(accuracies)
-        return overall_accuracy
 
     def _save(self) -> None:
         self.tokenizer.save_pretrained(self.save_dir)
