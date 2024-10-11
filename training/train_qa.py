@@ -2,7 +2,7 @@ import argparse
 import random
 import numpy as np
 import torch
-from transformers import AutoConfig, AutoModel, AutoTokenizer
+from transformers import AutoConfig, RobertaModel, AutoTokenizer
 from data_loader import QGDataset
 from trainer import Trainer
 
@@ -28,7 +28,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--save_dir", type=str, default="./bkai-encoder-embedding")
     parser.add_argument("--train_batch_size", type=int, default=4)
     parser.add_argument("--valid_batch_size", type=int, default=4)
-    parser.add_argument("--log_file", type=str, default="result/training.csv")
+    parser.add_argument("--log_file", type=str, default="training.csv")
     parser.add_argument("--train_file", type=str, default="dataset/train.json")
     parser.add_argument("--valid_file", type=str, default="dataset/valid.json")
     parser.add_argument("--seed", type=int, default=42)
@@ -41,9 +41,9 @@ def get_tokenizer(checkpoint: str) -> AutoTokenizer:
     )
     return tokenizer
 
-def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> AutoModel:
+def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> RobertaModel:
     config = AutoConfig.from_pretrained(checkpoint)
-    model = AutoModel.from_pretrained(checkpoint, config=config)
+    model = RobertaModel.from_pretrained(checkpoint, config=config)
     model.resize_token_embeddings(len(tokenizer))
     model = model.to(device)
     return model

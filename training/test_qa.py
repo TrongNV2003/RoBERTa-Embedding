@@ -1,6 +1,6 @@
 import argparse
-from transformers import AutoConfig, AutoModelForSequenceClassification, AutoTokenizer
-from data_loader import QGDataset, MCQ_QGDataset, DistractorDataset
+from transformers import AutoConfig, RobertaModel, AutoTokenizer
+from data_loader import QGDataset
 from trainer import Trainer
 import pandas as pd
 
@@ -18,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--pin_memory", dest="pin_memory", action="store_true", default=False)
     parser.add_argument("--train_batch_size", type=int, default=4)
     parser.add_argument("--test_batch_size", type=int, default=4)
-    parser.add_argument("--log_file", type=str, default="result/testing.csv")
+    parser.add_argument("--log_file", type=str, default="testing.csv")
     return parser.parse_args()
 
 def get_tokenizer(checkpoint: str) -> AutoTokenizer:
@@ -26,9 +26,9 @@ def get_tokenizer(checkpoint: str) -> AutoTokenizer:
     tokenizer.add_special_tokens({'additional_special_tokens': ['<sep>']})
     return tokenizer
 
-def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> AutoModelForSequenceClassification:
+def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> RobertaModel:
     config = AutoConfig.from_pretrained(checkpoint)
-    model = AutoModelForSequenceClassification.from_pretrained(checkpoint, config=config)
+    model = RobertaModel.from_pretrained(checkpoint, config=config)
     model.resize_token_embeddings(len(tokenizer))
     model = model.to(device)
     return model

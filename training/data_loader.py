@@ -17,24 +17,29 @@ class QGDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
-        context = item["Diễn giải"]
-        # label_text = item["Loại nghiệp vụ"]
-        describe = item["Mô tả chi tiết cho \"Nghiệp vụ chi tiết\""]
+        context = item["text"]
+        describe = item["label_description"]
 
-        # Encode context and describe to input_ids and attention_mask
-        input_ids = self.tokenizer.encode(
-            f"{context} <sep> {describe}",
+        text_encoding = self.tokenizer(
+            context,
             max_length=self.max_length,
-            padding="max_length",
+            padding='max_length',
             truncation=True,
             return_tensors='pt'
-        ).squeeze(0)
-
-        attention_mask = (input_ids != self.tokenizer.pad_token_id).long()
-
+        )
+        label_encoding = self.tokenizer(
+            describe,
+            max_length=self.max_length,
+            padding='max_length',
+            truncation=True,
+            return_tensors='pt'
+        )
         return {
-            "input_ids": input_ids,
-            "attention_mask": attention_mask,
+            'text_input_ids': text_encoding['input_ids'].squeeze(),
+            'text_attention_mask': text_encoding['attention_mask'].squeeze(),
+            'label_input_ids': label_encoding['input_ids'].squeeze(),
+            'label_attention_mask': label_encoding['attention_mask'].squeeze(),
+            'label': item['label']
         }
 
     # def _encode_text(self, text: str) -> Tuple[torch.Tensor, torch.Tensor]:
@@ -46,6 +51,6 @@ class QGDataset(torch.utils.data.Dataset):
     #         return_tensors='pt'
     #     )
     #     return (
-    #         encoded_text["input_ids"].squeeze(0),
-    #         encoded_text["attention_mask"].squeeze(0)
+    #         encoded_text["input_ids"].squeeze(),
+    #         encoded_text["attention_mask"].squeeze()
     #     )
