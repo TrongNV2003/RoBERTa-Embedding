@@ -1,0 +1,765 @@
+[
+    {
+        "STT": 1,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Rút dự toán về tài khoản tiền gửi",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản tiền rút về tài khoản tiền gửi chi hoạt động của đơn vị mà không phải là tiết kiệm chi; trích lập các quỹ; chuyển tiền lương và các khoản phụ cấp; chuyển tiền cấp bù học phí, hoặc tiền cung cấp hoạt động sự nghiệp công",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc vào tài khoản tiền gửi"
+    },
+    {
+        "STT": 2,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Rút dự toán đã tiết kiệm chi về tài khoản tiền gửi ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Số kinh phí hoạt động tiết kiệm được trong năm sẽ được trích lập các quỹ Bổ sung thu nhập, quỹ Dự phòng ổn định thu nhập hoặc chi thu nhập tăng thêm cho người lao động",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc vào tài khoản tiền gửi"
+    },
+    {
+        "STT": 2,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Rút dự toán đã tiết kiệm chi về tài khoản tiền gửi ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Số kinh phí hoạt động tiết kiệm được trong năm sẽ được trích lập các quỹ Bổ sung thu nhập, quỹ Dự phòng ổn định thu nhập hoặc chi thu nhập tăng thêm cho người lao động",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 3,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Rút kinh phí cung cấp hoạt động sự nghiệp công về tài khoản tiền gửi",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Khoản cấp bù học phí; khoản dịch vụ y tế dự phòng; khoản dịch vụ sự nghiệp công rút về tài khoản tiền gửi",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc vào tài khoản tiền gửi"
+    },
+    {
+        "STT": 4,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Rút dự toán kinh phí ủy quyền chuyển cho các đối tượng thụ hưởng về tài khoản tiền gửi",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền mua thẻ Bảo hiểm y tế (bảo hiểm y tế) cho các đối tượng chính sách, tiền trợ cấp hàng tháng cho người có công với cách mạng, tiền học bổng cho học sinh nghèo",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc vào tài khoản tiền gửi"
+    },
+    {
+        "STT": 5,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền lương, tiền công, tiền phụ cấp, tiền thưởng, tiền trợ cấp, khoán công tác phí (CTP), khoán văn phòng phẩm (văn phòng phẩm), tiền ngày giỗ tổ, tiền ngày lể, tiền ngày tết, tiền ngày quốc khánh, tiền ngày 8/3, tiền ngày 20/11, tiền ngày 20/10 tiền mừng sinh nhật, tiền báo cáo viên, tiền chế độ, tiền làm thêm giờ, tiền tinh giản biên chế ",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 6,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi chung cho hoạt động của đơn vị như: mua vật tư, dụng cụ,  tiền điện hàng tháng; tiền nước hàng tháng; tiền vệ sinh, tiền thiết bị; tiền mua văn phòng phẩm (VPP); đồ dùng cho văn phòng; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền xăng xe; tiền phần mềm; tiền chữ ký số; tiền bảo hiểm cháy nổ; tiền đi học; tiền giấy thi; tiền báo hàng quý; tiền cước dịch vụ đường truyền; thuê âm thanh, ánh sáng; xử lý rác thải; cước phí bưu chính; mực máy in; mực máy photo... bằng chuyển khoản kho bạc; trang phục; tiền thuê phương tiện vận chuyển",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 7,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc chi khác cho các hoạt động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi mua vở thưởng, dụng cụ học tập thưởng cho học sinh;\nSửa chữa máy tính, laptop, máy photo …\nMua cây cảnh, trang trí; mua phân bón cây\nPhí chuyển tiền. Tiền coi thi\nMua cốc uống nước\nChi tiền chè, tiền nước giải khát, tiền hoa, tiền mừng, tiền hỗ trợ, tiền thăm hỏi, tiền tiếp khách\nTiền photo tài liệu\nThuê lao động, thuê loa đài; Tiền bồi dưỡng\nCác khoản chi lặt vặt khác",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 8,
+        "Loại chứng từ": "Chuyển khoản kho bạc mua VTHH",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc mua VTHH",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chuyển khoản tiền mua nguyên vật liệu, công cụ dụng cụ",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc mua VTHH"
+    },
+    {
+        "STT": 9,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc tiền mua sắm TSCĐ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chuyển khoản tiền mua tài sản cố định như nhà cửa, máy móc thiết bị, ti vi, máy photocopy; ",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 10,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc tiền nâng cấp TSCĐ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền nâng cấp, sửa chữa lớn tài sản cố định nhà cửa, máy móc thiết bị",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 11,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc tiền đầu tư XDCB",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền giải phóng mặt bằng; chi quy hoạch; chi điều tra, khảo sát; chi thẩm định dự án; đánh giá tác động môi trường; bồi thường hỗ trợ tái định cư; chi xây dựng công trình; chi phá và tháo dỡ các vật kiến trúc cũ; chi san lấp mặt bằng; mua sắm thiết bị, lắp đặt thiết bị; đào tạo chuyển giao công nghệ; phần mềm cho các công trình, dự án",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 12,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc thanh toán cho đơn đặt hàng của nhà nước",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi chung phục vụ cho các đơn đặt hàng của nhà nước, hoặc ngân sách nhà nước hỗ trợ thực hiện hoạt động dịch vụ công như: tiền điện; tiền nước; tiền sửa chữa thiết bị; tiền trợ cấp; tiền thưởng; tiền mua văn phòng phẩm; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền bảo hiểm cháy nổ; tiền đi học...",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 13,
+        "Loại chứng từ": "Chuyển khoản kho bạc mua VTHH",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc mua VTHH cho đơn đặt hàng của nhà nước",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chuyển khoản tiền mua nguyên vật liệu, công cụ dụng cụ phục vụ các đơn đặt hàng của nhà nước, hỗ trợ thực hiện hoạt động dịch vụ sự nghiệp công sử dụng ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc mua VTHH"
+    },
+    {
+        "STT": 14,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc thanh toán cho nhà cung cấp theo đơn đặt hàng của nhà nước",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chuyển khoản tiền cho nhà cung cấp phục vụ các đơn đặt hàng của nhà nước, hỗ trợ thực hiện hoạt động dịch vụ sự nghiệp công sử dụng ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 15,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc thanh toán cho nhà cung cấp",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi tiền mua hàng cho nhà cung cấp là một tổ chức, một công ty hoặc một cá nhân, theo Quyết định thầu, hợp đồng hoặc hóa đơn",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 16,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế GTGT",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế giá trị gia tăng (giá trị gia tăng)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 17,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế GTGT",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế giá trị gia tăng (giá trị gia tăng)",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 18,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế GTGT",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế giá trị gia tăng (giá trị gia tăng)",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 19,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập doanh nghiệp",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập doanh nghiệp (thu nhập doanh nghiệp)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 20,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập doanh nghiệp",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập doanh nghiệp (thu nhập doanh nghiệp)",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 21,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập doanh nghiệp",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập doanh nghiệp (thu nhập doanh nghiệp)",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 22,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập cá nhân",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập cá nhân (thu nhập cá nhân)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 23,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập cá nhân",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập cá nhân (thu nhập cá nhân)",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 24,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập cá nhân",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập cá nhân (thu nhập cá nhân)",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 25,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp phí, lệ phí vào NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp phí, lệ phí vào ngân sách nhà nước (ngân sách nhà nước)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 26,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp phí, lệ phí vào NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp phí, lệ phí vào ngân sách nhà nước (ngân sách nhà nước)",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 27,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp phí, lệ phí vào NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp phí, lệ phí vào ngân sách nhà nước (ngân sách nhà nước)",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 28,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp các khoản thuế khác",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp các khoản thuế khác thuế giá trị gia tăng, thu nhập doanh nghiệp, thu nhập cá nhân, phí, lệ phí",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 29,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp các khoản thuế khác",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp các khoản thuế khác thuế giá trị gia tăng, thu nhập doanh nghiệp, thu nhập cá nhân, phí, lệ phí",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 30,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp các khoản thuế khác",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp các khoản thuế khác thuế giá trị gia tăng, thu nhập doanh nghiệp, thu nhập cá nhân, phí, lệ phí",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 31,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản kho bạc kinh phí ủy quyền cho các đối tượng thụ hưởng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền mua thẻ Bảo hiểm y tế (bảo hiểm y tế) cho các đối tượng chính sách, tiền trợ cấp hàng tháng cho người có công với cách mạng, tiền học bổng cho học sinh nghèo",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 32,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản lương vào tài khoản tiền gửi",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán tiền lương, tiền phụ cấp (phụ cấp), truy lĩnh lương hàng tháng cho cán bộ, nhân viên trong đơn vị ",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc vào tài khoản tiền gửi"
+    },
+    {
+        "STT": 32,
+        "Loại chứng từ": "Chuyển khoản kho bạc vào tài khoản tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp thuế thu nhập cá nhân",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp thuế thu nhập cá nhân (thu nhập cá nhân)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc vào tài khoản tiền gửi"
+    },
+    {
+        "STT": 33,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản lương vào tài khoản tiền gửi",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán tiền lương, tiền phụ cấp (phụ cấp), truy lĩnh lương hàng tháng cho cán bộ, nhân viên trong đơn vị ",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 34,
+        "Loại chứng từ": "Chuyển khoản thanh toán bảo hiểm",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản tiền bảo hiểm",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán các khoản Bảo hiểm xã hội (bảo hiểm xã hội); Bảo hiểm y tế (bảo hiểm y tế); Bảo hiểm thất nghiệp (bảo hiểm thất nghiệp); Bảo hiểm tai nạn lao động (Bảo hiểm tai nạn lao động)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản thanh toán bảo hiểm"
+    },
+    {
+        "STT": 35,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản tiền bảo hiểm",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán các khoản Bảo hiểm xã hội (bảo hiểm xã hội); Bảo hiểm y tế (bảo hiểm y tế); Bảo hiểm thất nghiệp (bảo hiểm thất nghiệp); Bảo hiểm tai nạn lao động (Bảo hiểm tai nạn lao động)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 36,
+        "Loại chứng từ": "Chuyển khoản thanh toán bảo hiểm",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản tiền KPCĐ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán các khoản Kinh phí công đoàn (kinh phí công đoàn), đoàn phí công đoàn (đoàn phí công đoàn)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản thanh toán bảo hiểm"
+    },
+    {
+        "STT": 37,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chuyển khoản tiền KPCĐ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán các khoản Kinh phí công đoàn (kinh phí công đoàn), đoàn phí công đoàn (đoàn phí công đoàn)",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 38,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp trả",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp trả hoặc nộp phục hồi ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 39,
+        "Loại chứng từ": "Phiếu chi nộp tiền vào ngân hàng, kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp trả",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp trả hoặc nộp phục hồi ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi nộp tiền vào ngân hàng, kho bạc"
+    },
+    {
+        "STT": 40,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp trả",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp trả hoặc nộp phục hồi ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 41,
+        "Loại chứng từ": "Chứng từ nghiệp vụ khác",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp trả",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nộp trả hoặc nộp phục hồi ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Chứng từ nghiệp vụ khác"
+    },
+    {
+        "STT": 42,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp tiền xuất toán ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Xuất toán, nộp trả ngân sách nhà nước theo quyết định của thanh toán, kiểm toán hoặc cơ quan cấp trên",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 43,
+        "Loại chứng từ": "Phiếu chi nộp tiền vào ngân hàng, kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp tiền xuất toán ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Xuất toán, nộp trả ngân sách nhà nước theo quyết định của thanh toán, kiểm toán hoặc cơ quan cấp trên",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi nộp tiền vào ngân hàng, kho bạc"
+    },
+    {
+        "STT": 44,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp tiền xuất toán ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Xuất toán, nộp trả ngân sách nhà nước theo quyết định của thanh toán, kiểm toán hoặc cơ quan cấp trên",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 45,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền khoản thu hộ, chi hộ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền chi hộ cho các chương trình về y tế của nhà nước như chương trình phòng, chống suy dinh dưỡng bà mẹ, trẻ em; Chương trình cải thiện dinh dưỡng, tiền đề tài, tiền khen thưởng của cơ quan chủ quản; Tiền nước uống của học sinh; Tiền ăn bán trú; Tiền bảo hiểm y tế của học sinh",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 45,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền khoản thu hộ, chi hộ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền chi hộ cho các chương trình về y tế của nhà nước như chương trình phòng, chống suy dinh dưỡng bà mẹ, trẻ em; Chương trình cải thiện dinh dưỡng, tiền đề tài, tiền khen thưởng của cơ quan chủ quản; Tiền nước uống của học sinh; Tiền ăn bán trú; Tiền bảo hiểm y tế của học sinh",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 46,
+        "Loại chứng từ": "Phiếu thu tiền khách hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền khách hàng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền bán hàng cho một công ty, cá nhân hoặc tổ chức",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu tiền khách hàng"
+    },
+    {
+        "STT": 47,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền khách hàng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền bán hàng cho một công ty, cá nhân hoặc tổ chức",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 48,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền khách hàng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền bán hàng cho một công ty, cá nhân hoặc tổ chức",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 49,
+        "Loại chứng từ": "Thu tiền gửi từ khách hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền khách hàng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền bán hàng cho một công ty, cá nhân hoặc tổ chức",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi từ khách hàng"
+    },
+    {
+        "STT": 50,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền đã tạm ứng cho người lao động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền hoàn ứng cho khoản đã tạm ứng của một cá nhân hoặc một phiếu chi trước đó",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 51,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền đã tạm ứng cho người lao động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền hoàn ứng cho khoản đã tạm ứng của một cá nhân hoặc một phiếu chi trước đó",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 52,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền hoạt động nghiệp vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu đảng phí; thu hoạt động nghiệp vụ",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 53,
+        "Loại chứng từ": "Phiếu thu tiền khách hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền hoạt động nghiệp vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu đảng phí; thu hoạt động nghiệp vụ",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu tiền khách hàng"
+    },
+    {
+        "STT": 54,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền hoạt động nghiệp vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu đảng phí; thu hoạt động nghiệp vụ",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 55,
+        "Loại chứng từ": "Thu tiền gửi từ bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền hoạt động nghiệp vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu đảng phí; thu hoạt động nghiệp vụ",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 56,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền viện phí, tiền học phí, tiền đào tạo nghề, tiền khám chữa bệnh, tiền bán thuốc, tiền dịch vụ nhà ăn, tiền dịch vụ trông xe, tiền dịch vụ khám sức khỏe\nTiền dịch vụ xét nghiệm\nTiền siêu âm. Chụp cắt lớp, chụp CT, chụp cộng hưởng từ, xạ trị, hóa trị\nTiền học phí, tiền học 2 buổi, tiền học thêm, tiền đồng phục, tiền sách giáo khoa, tiền báo",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 57,
+        "Loại chứng từ": "Phiếu thu bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền viện phí, tiền học phí, tiền đào tạo nghề, tiền khám chữa bệnh, tiền bán thuốc, tiền dịch vụ nhà ăn, tiền dịch vụ trông xe, tiền dịch vụ khám sức khỏe\nTiền dịch vụ xét nghiệm\nTiền siêu âm. Chụp cắt lớp, chụp CT, chụp cộng hưởng từ, xạ trị, hóa trị\nTiền học phí, tiền học 2 buổi, tiền học thêm, tiền đồng phục, tiền sách giáo khoa, tiền báo",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 58,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền viện phí, tiền học phí, tiền đào tạo nghề, tiền khám chữa bệnh, tiền bán thuốc, tiền dịch vụ nhà ăn, tiền dịch vụ trông xe, tiền dịch vụ khám sức khỏe\nTiền dịch vụ xét nghiệm\nTiền siêu âm. Chụp cắt lớp, chụp CT, chụp cộng hưởng từ, xạ trị, hóa trị\nTiền học phí, tiền học 2 buổi, tiền học thêm, tiền đồng phục, tiền sách giáo khoa, tiền báo",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 59,
+        "Loại chứng từ": "Thu tiền gửi từ bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán sản phẩm, hàng hóa, cung cấp dịch vụ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền viện phí, tiền học phí, tiền đào tạo nghề, tiền khám chữa bệnh, tiền bán thuốc, tiền dịch vụ nhà ăn, tiền dịch vụ trông xe, tiền dịch vụ khám sức khỏe\nTiền dịch vụ xét nghiệm\nTiền siêu âm. Chụp cắt lớp, chụp CT, chụp cộng hưởng từ, xạ trị, hóa trị\nTiền học phí, tiền học 2 buổi, tiền học thêm, tiền đồng phục, tiền sách giáo khoa, tiền báo",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 60,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại để lại đơn vị",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 61,
+        "Loại chứng từ": "Phiếu thu bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại để lại đơn vị",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 62,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại để lại đơn vị",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 63,
+        "Loại chứng từ": "Thu tiền gửi từ bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ được để lại đơn vị ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại để lại đơn vị",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 64,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ nộp NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại nộp ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 65,
+        "Loại chứng từ": "Phiếu thu bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ nộp NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại nộp ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 66,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ nộp NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại nộp ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 67,
+        "Loại chứng từ": "Thu tiền gửi từ bán hàng",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền bán hồ sơ thầu, thanh lý TSCĐ nộp NSNN",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền bán hồ sơ thầu; thanh lý, nhượng bán tài sản, thiết bị; thu tiền phạt vi phạm hợp đồng; nhận quà tặng; tiền khuyến mại nộp ngân sách nhà nước",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 68,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu phí, lệ phí",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền phí, lệ phí",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 69,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu phí, lệ phí",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu tiền phí, lệ phí",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 70,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Phát hiện kiểm kê thừa quỹ tiền mặt chưa xác định được nguyên nhân",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Kiểm kê quỹ thừa tiền mặt",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 71,
+        "Loại chứng từ": "Phiếu thu",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu lại tiền do chi sai, chi vượt định mức",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thu lại tiền chi sai",
+        "Loại chứng từ chuẩn hoá": "Phiếu thu"
+    },
+    {
+        "STT": 72,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi chung cho hoạt động của đơn vị như: mua vật tư, dụng cụ,  tiền điện hàng tháng; tiền nước hàng tháng; tiền vệ sinh, tiền thiết bị; tiền mua văn phòng phẩm (VPP); đồ dùng cho văn phòng; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền xăng xe; tiền phần mềm; tiền chữ ký số; tiền bảo hiểm cháy nổ; tiền đi học; tiền giấy thi; tiền báo hàng quý; tiền cước dịch vụ đường truyền; thuê âm thanh, ánh sáng; xử lý rác thải; cước phí bưu chính; mực máy in; mực máy photo... bằng chuyển khoản kho bạc; trang phục; tiền thuê phương tiện vận chuyển",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 73,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi vật tư, dịch vụ đã sử dụng cho các hoạt động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi chung cho hoạt động của đơn vị như: mua vật tư, dụng cụ,  tiền điện hàng tháng; tiền nước hàng tháng; tiền vệ sinh, tiền thiết bị; tiền mua văn phòng phẩm (VPP); đồ dùng cho văn phòng; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền xăng xe; tiền phần mềm; tiền chữ ký số; tiền bảo hiểm cháy nổ; tiền đi học; tiền giấy thi; tiền báo hàng quý; tiền cước dịch vụ đường truyền; thuê âm thanh, ánh sáng; xử lý rác thải; cước phí bưu chính; mực máy in; mực máy photo... bằng chuyển khoản kho bạc; trang phục; tiền thuê phương tiện vận chuyển",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 74,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi khác cho các hoạt động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi mua vở thưởng, dụng cụ học tập thưởng cho học sinh;\nSửa chữa máy tính, laptop, máy photo …\nMua cây cảnh, trang trí; mua phân bón cây\nPhí chuyển tiền. Tiền coi thi\nMua cốc uống nước\nChi tiền chè, tiền nước giải khát, tiền hoa, tiền mừng, tiền hỗ trợ, tiền thăm hỏi, tiền tiếp khách\nTiền photo tài liệu\nThuê lao động, thuê loa đài; Tiền bồi dưỡng\nCác khoản chi lặt vặt khác",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 75,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi khác cho các hoạt động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi mua vở thưởng, dụng cụ học tập thưởng cho học sinh;\nSửa chữa máy tính, laptop, máy photo …\nMua cây cảnh, trang trí; mua phân bón cây\nPhí chuyển tiền. Tiền coi thi\nMua cốc uống nước\nChi tiền chè, tiền nước giải khát, tiền hoa, tiền mừng, tiền hỗ trợ, tiền thăm hỏi, tiền tiếp khách\nTiền photo tài liệu\nThuê lao động, thuê loa đài; Tiền bồi dưỡng\nCác khoản chi lặt vặt khác",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 76,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền công, tiền trợ cấp, tiền thưởng CBNV, khoán công tác phí (CTP), khoán văn phòng phẩm (VPP) tiền ngày giỗ tổ, tiền ngày lể, tiền ngày tết, tiền ngày quốc khánh, tiền ngày 8/3, tiền ngày 20/11, tiền ngày 20/10, tiền mừng sinh nhật, tiền báo cáo viên, tiền chế độ, tiền tinh giản biên chế, tiền làm thêm giờ",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 77,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi tiền lương, tiền công và chi phí khác cho người lao động",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Tiền công, tiền trợ cấp, tiền thưởng CBNV, khoán công tác phí (CTP), khoán văn phòng phẩm (VPP) tiền ngày giỗ tổ, tiền ngày lể, tiền ngày tết, tiền ngày quốc khánh, tiền ngày 8/3, tiền ngày 20/11, tiền ngày 20/10, tiền mừng sinh nhật, tiền báo cáo viên, tiền chế độ, tiền tinh giản biên chế, tiền làm thêm giờ",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 78,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phí quản lý",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi phí quản lý cho sản xuất kinh doanh của đơn vị như: tiền điện; tiền nước; tiền sửa chữa thiết bị; tiền trợ cấp; tiền thưởng; tiền mua văn phòng phẩm; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền bảo hiểm cháy nổ; tiền đi học... bằng tiền mặt",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 79,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phí quản lý",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi phí quản lý cho sản xuất kinh doanh của đơn vị như: tiền điện; tiền nước; tiền sửa chữa thiết bị; tiền trợ cấp; tiền thưởng; tiền mua văn phòng phẩm; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền bảo hiểm cháy nổ; tiền đi học... bằng tiền mặt",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 80,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phí bán hàng  ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi phí bán hàng cho sản xuất kinh doanh của đơn vị như: tiền điện; tiền nước; tiền sửa chữa thiết bị; tiền trợ cấp; tiền thưởng; tiền mua văn phòng phẩm; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền bảo hiểm cháy nổ; tiền đi học... bằng tiền mặt",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 81,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phí bán hàng  ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Các khoản chi phí bán hàng cho sản xuất kinh doanh của đơn vị như: tiền điện; tiền nước; tiền sửa chữa thiết bị; tiền trợ cấp; tiền thưởng; tiền mua văn phòng phẩm; tiền thuê các dịch vụ; tiền vé máy bay, tàu xe; tiền công tác phí; tiền trực; tiền internet; tiền điện thoại; tiền khoán phương tiện; tiền bảo hiểm cháy nổ; tiền đi học... bằng tiền mặt",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 82,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phí tài chính",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi trả lãi tiền vay, lỗ chênh lệch tỉ giá, chi phí vay vốn",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 83,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phí tài chính",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi trả lãi tiền vay, lỗ chênh lệch tỉ giá, chi phí vay vốn",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 84,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Tạm ứng cho người lao động trong đơn vị hoặc cho đầu mối chi tiêu",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi tạm ứng cho nhân viên, người lao động",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 85,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Phát hiện thiếu tiền mặt chưa xác định nguyên nhân",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Kiểm kê quỹ thiếu tiền mặt",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 86,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi khen thưởng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi khen thưởng; Chi thưởng năng suất",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 87,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi khen thưởng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi khen thưởng; Chi thưởng năng suất",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 88,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi bổ sung thu nhập ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi bổ sung thu nhập; Chi thu nhập tăng thêm; chi tiền tiết kiệm chi",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 89,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi bổ sung thu nhập ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi bổ sung thu nhập; Chi thu nhập tăng thêm; chi tiền tiết kiệm chi",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 90,
+        "Loại chứng từ": "Chuyển khoản kho bạc",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi bổ sung thu nhập ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi bổ sung thu nhập; Chi thu nhập tăng thêm; chi tiền tiết kiệm chi",
+        "Loại chứng từ chuẩn hoá": "Chuyển khoản kho bạc"
+    },
+    {
+        "STT": 91,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phúc lợi ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi phúc lợi; chi tiền ngày lễ, tết, tiền ngày giỗ tổ, tiền ngày quốc khánh, tiền ngày 8/3, tiền ngày 20/11, tiền ngày 20/10 tiền mừng sinh nhật, tiền ngày Thầy thuốc Việt Nam, tiền nghỉ mát, tiền trung thu, tết dương lịch ",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    },
+    {
+        "STT": 92,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi phúc lợi ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi phúc lợi; chi tiền ngày lễ, tết, tiền ngày giỗ tổ, tiền ngày quốc khánh, tiền ngày 8/3, tiền ngày 20/11, tiền ngày 20/10 tiền mừng sinh nhật, tiền ngày Thầy thuốc Việt Nam, tiền nghỉ mát, tiền trung thu, tết dương lịch ",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 93,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nhận kinh phí NSNN cấp bằng lệnh chi tiền",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nhận lệnh chi tiền tạm ứng hoặc lệnh chi tiền thực chi",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 94,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu doanh thu tài chính",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Lãi tiền gửi; lãi đầu tư tín phiếu, trái phiếu; lãi chênh lệch tỷ giá; cổ tức, lợi nhuận được chia",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 95,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nhận vốn góp của chủ sở hữu",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nhận vốn điều lệ ngân sách nhà nước cấp; nhận vốn góp của một công ty, tổ chức",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 96,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nhận tiền đặt cọc, ký cược, kỹ quỹ ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nhận tiền đặt cọc; tiền ký cược; tiền ký quỹ của một công ty, tổ chức",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 97,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nhận khoản thu nhập bất thường, quà tặng",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nhận tiền tài trợ, biếu tặng ",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 98,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền tạm ứng KP KCB từ BHYT",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "bảo hiểm xã hội tạm ứng kinh phí khám chữa bệnh cho người có thẻ bảo hiểm y tế (bảo hiểm y tế)",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 99,
+        "Loại chứng từ": "Thu tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thu tiền ốm đau, thai sai từ cơ quan bảo hiểm",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Nhận tiền ốm đau, thai sản của cơ quan bảo hiểm xã hội ",
+        "Loại chứng từ chuẩn hoá": "Thu tiền gửi"
+    },
+    {
+        "STT": 100,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi tiền ốm đau, thai sản cho cán bộ ",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Chi tiền ốm đau, thai sản cho cán bộ",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 101,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi thanh toán tiền cho nhà cung cấp",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán tiền công nợ cho các công ty, đơn vị; mua hàng theo quyết định thầu",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 102,
+        "Loại chứng từ": "Chi tiền gửi trả nhà cung cấp",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi thanh toán tiền cho nhà cung cấp",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán tiền công nợ cho các công ty, đơn vị; mua hàng theo QĐ thầu",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 103,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Chi tiền gửi trả lương",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán tiền trả lương, tiền phụ cấp (PC), truy lĩnh lương hàng tháng cho cán bộ, nhân viên trong đơn vị, tiền trực (phụ cấp trực), tiền thủ thuật",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 104,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp bảo hiểm",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán các khoản Bảo hiểm xã hội (bảo hiểm xã hội); Bảo hiểm y tế (bảo hiểm y tế); Bảo hiểm thất nghiệp (bảo hiểm thất nghiệp); Bảo hiểm tai nạn lao động (Bảo hiểm tai nạn lao động)",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 105,
+        "Loại chứng từ": "Chi tiền gửi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Nộp kinh phí công đoàn",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán các khoản Kinh phí công đoàn (kinh phí công đoàn), đoàn phí công đoàn (đoàn phí công đoàn)",
+        "Loại chứng từ chuẩn hoá": "Chi tiền gửi"
+    },
+    {
+        "STT": 106,
+        "Loại chứng từ": "Phiếu chi",
+        "Nghiệp vụ chi tiết (đầu ra)": "Thanh toán tạm ứng cho người lao động trong đơn vị hoặc cho đầu mối chi tiêu",
+        "Mô tả chi tiết cho \"Nghiệp vụ chi tiết\"": "Thanh toán tạm ứng, hoàn ứng, chi từ tạm ứng",
+        "Loại chứng từ chuẩn hoá": "Phiếu chi"
+    }
+]
