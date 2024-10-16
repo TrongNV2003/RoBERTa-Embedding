@@ -17,29 +17,26 @@ class QGDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index: int) -> Mapping[str, torch.Tensor]:
         item = self.data[index]
-        context = item["text"]
-        describe = item["label_description"]
-
         text_encoding = self.tokenizer(
-            context,
+            item["Diễn giải"],
             max_length=self.max_length,
-            padding='max_length',
+            padding="max_length",
             truncation=True,
-            return_tensors='pt'
+            return_tensors="pt"
         )
         label_encoding = self.tokenizer(
-            describe,
+            item["Mô tả chi tiết cho \"Nghiệp vụ chi tiết\""],
             max_length=self.max_length,
-            padding='max_length',
+            padding="max_length",
             truncation=True,
-            return_tensors='pt'
+            return_tensors="pt"
         )
         return {
-            'text_input_ids': text_encoding['input_ids'].squeeze(),
-            'text_attention_mask': text_encoding['attention_mask'].squeeze(),
-            'label_input_ids': label_encoding['input_ids'].squeeze(),
-            'label_attention_mask': label_encoding['attention_mask'].squeeze(),
-            'label': item['label']
+            "text_input_ids": text_encoding["input_ids"].squeeze(),
+            "text_attention_mask": text_encoding["attention_mask"].squeeze(),
+            "label_input_ids": label_encoding["input_ids"].squeeze(),
+            "label_attention_mask": label_encoding["attention_mask"].squeeze(),
+            "label": torch.tensor(item["class"], dtype=torch.float)
         }
 
     # def _encode_text(self, text: str) -> Tuple[torch.Tensor, torch.Tensor]:
