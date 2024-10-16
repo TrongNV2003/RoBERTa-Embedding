@@ -86,7 +86,7 @@ if __name__ == "__main__":
             train_batch_size=args.train_batch_size,
             train_set=train_set,
             valid_batch_size=args.valid_batch_size,
-            valid_set=valid_set,
+            # valid_set=valid_set,
             log_file=args.log_file
         )
         trainer.train()
