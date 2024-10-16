@@ -133,7 +133,7 @@ def calculate_accuracy(data_file, label_file):
 if __name__ == "__main__":
     customer_file = 'dataset/test_intrain.json'
     label_file = 'Danh sách loại nghiệp vụ1.json'
-
+    output_file = "updated_customer_data.json"
     add_label_file(label_file)
     predict_label(customer_file)
-    calculate_accuracy(customer_file, label_file)
+    calculate_accuracy(output_file, label_file)
