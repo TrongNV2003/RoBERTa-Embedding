@@ -41,7 +41,7 @@ class Trainer:
         train_set: Dataset,
         valid_batch_size: int,
         log_file: str,
-        valid_set: Dataset,
+        # valid_set: Dataset,
         evaluate_on_accuracy: bool = False
     ) -> None:
         self.device = device
