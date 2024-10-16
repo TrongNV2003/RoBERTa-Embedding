@@ -25,7 +25,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--pad_mask_id", type=int, default=-100)
     parser.add_argument("--qg_model", type=str, default="bkai-foundation-models/vietnamese-bi-encoder")
     parser.add_argument("--pin_memory", dest="pin_memory", action="store_true", default=False)
-    parser.add_argument("--save_dir", type=str, default="./bkai-encoder-embedding")
+    parser.add_argument("--save_dir", type=str, default="./bkai-embedding-encoder")
     parser.add_argument("--train_batch_size", type=int, default=8)
     parser.add_argument("--valid_batch_size", type=int, default=8)
     parser.add_argument("--log_file", type=str, default="training.csv")
@@ -63,12 +63,12 @@ if __name__ == "__main__":
         tokenizer=tokenizer
     )
 
-    valid_set = QGDataset(
-        json_file=args.valid_file,
-        max_length=args.max_length,
-        pad_mask_id=args.pad_mask_id,
-        tokenizer=tokenizer
-    )
+    # valid_set = QGDataset(
+    #     json_file=args.valid_file,
+    #     max_length=args.max_length,
+    #     pad_mask_id=args.pad_mask_id,
+    #     tokenizer=tokenizer
+    # )
     
     for lr in args.learning_rates:
         print(f"Training with learning rate: {lr}")

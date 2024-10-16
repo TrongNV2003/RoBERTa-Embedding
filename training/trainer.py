@@ -61,13 +61,13 @@ class Trainer:
             pin_memory=pin_memory,
             shuffle=True
         )
-        self.valid_loader = DataLoader(
-            valid_set,
-            batch_size=valid_batch_size,
-            num_workers=dataloader_workers,
-            pin_memory=pin_memory,
-            shuffle=False
-        )
+        # self.valid_loader = DataLoader(
+        #     valid_set,
+        #     batch_size=valid_batch_size,
+        #     num_workers=dataloader_workers,
+        #     pin_memory=pin_memory,
+        #     shuffle=False
+        # )
         self.tokenizer = tokenizer
         self.model = model.to(self.device)
         self.optimizer = AdamW(self.model.parameters(), lr=learning_rate, weight_decay=weight_decay)
@@ -86,9 +86,6 @@ class Trainer:
             with tqdm(total=len(self.train_loader), unit="batches") as tepoch:
                 tepoch.set_description(f"epoch {epoch}")
                 for data in self.train_loader:
-                    self.optimizer.zero_grad()
-                    # data = {key: value.to(self.device) for key, value in data.items()}
-
                     text_input_ids = data["text_input_ids"].to(self.device)
                     text_attention_mask = data["text_attention_mask"].to(self.device)
                     label_input_ids = data["label_input_ids"].to(self.device)
@@ -99,7 +96,8 @@ class Trainer:
                     label_embeddings = self.model(input_ids=label_input_ids, attention_mask=label_attention_mask).last_hidden_state[:, 0, :]
 
                     loss = self.cosine_similarity_loss(text_embeddings, label_embeddings, labels)
-
+                    
+                    self.optimizer.zero_grad()
                     loss.backward()
                     self.optimizer.step()
 
@@ -125,14 +123,14 @@ class Trainer:
             #                      'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
                 
             
-            valid_loss = self.evaluate(self.valid_loader)
-            if valid_loss < self.best_valid_score:
-                print(
-                    f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
-                self.best_valid_score = valid_loss
-                self._save()
-            self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-                                'valid_loss': valid_loss, 'valid_accuracy': None})
+            # valid_loss = self.evaluate(self.valid_loader)
+            # if valid_loss < self.best_valid_score:
+            #     print(
+            #         f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
+            #     self.best_valid_score = valid_loss
+            #     self._save()
+            # self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
+            #                     'valid_loss': valid_loss, 'valid_accuracy': None})
 
 
     def cosine_similarity_loss(self, text_embeddings, label_embeddings, labels, margin=0.5):
@@ -143,31 +141,31 @@ class Trainer:
 
         return loss
 
-    @torch.no_grad()
-    def evaluate(self, dataloader: DataLoader) -> float:
-        self.model.eval()
-        eval_loss = AverageMeter()
-        with tqdm(total=len(dataloader), unit="batches") as tepoch:
-            tepoch.set_description("validation")
-            for data in dataloader:
-                # data = {key: value.to(self.device) for key, value in data.items()}
-                # output = self.model(**data)
+    # @torch.no_grad()
+    # def evaluate(self, dataloader: DataLoader) -> float:
+    #     self.model.eval()
+    #     eval_loss = AverageMeter()
+    #     with tqdm(total=len(dataloader), unit="batches") as tepoch:
+    #         tepoch.set_description("validation")
+    #         for data in dataloader:
+    #             # data = {key: value.to(self.device) for key, value in data.items()}
+    #             # output = self.model(**data)
                 
-                text_input_ids = data["text_input_ids"].to(self.device)
-                text_attention_mask = data["text_attention_mask"].to(self.device)
-                label_input_ids = data["label_input_ids"].to(self.device)
-                label_attention_mask = data["label_attention_mask"].to(self.device)
-                labels = data["label"].to(self.device)
+    #             text_input_ids = data["text_input_ids"].to(self.device)
+    #             text_attention_mask = data["text_attention_mask"].to(self.device)
+    #             label_input_ids = data["label_input_ids"].to(self.device)
+    #             label_attention_mask = data["label_attention_mask"].to(self.device)
+    #             labels = data["label"].to(self.device)
 
-                text_embeddings = self.model(input_ids=text_input_ids, attention_mask=text_attention_mask).last_hidden_state[:, 0, :]
-                label_embeddings = self.model(input_ids=label_input_ids, attention_mask=label_attention_mask).last_hidden_state[:, 0, :]
+    #             text_embeddings = self.model(input_ids=text_input_ids, attention_mask=text_attention_mask).last_hidden_state[:, 0, :]
+    #             label_embeddings = self.model(input_ids=label_input_ids, attention_mask=label_attention_mask).last_hidden_state[:, 0, :]
 
-                loss = self.cosine_similarity_loss(text_embeddings, label_embeddings, labels)
+    #             loss = self.cosine_similarity_loss(text_embeddings, label_embeddings, labels)
                 
-                eval_loss.update(loss.item(), self.valid_batch_size)
-                tepoch.set_postfix({"valid_loss": eval_loss.avg})
-                tepoch.update(1)
-        return eval_loss.avg
+    #             eval_loss.update(loss.item(), self.valid_batch_size)
+    #             tepoch.set_postfix({"valid_loss": eval_loss.avg})
+    #             tepoch.update(1)
+    #     return eval_loss.avg
 
     # @torch.no_grad()
     # def evaluate_accuracy(self, dataloader: DataLoader) -> float:
