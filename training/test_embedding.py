@@ -42,7 +42,7 @@ class EmbeddingSimilarityLabeler:
 
 
 # ----------------------------------------------
-MODEL = "/content/bkai-embedding-encoder"
+MODEL = "bkai-embedding-encoder"
 labeler = EmbeddingSimilarityLabeler(MODEL)
 
 def add_label_file(label_file):

@@ -104,6 +104,7 @@ class Trainer:
                     self.train_loss.update(loss.item(), self.train_batch_size)
                     tepoch.set_postfix({"train_loss": self.train_loss.avg})
                     tepoch.update(1)
+                self._save()
 
             # if self.evaluate_on_accuracy:
             #     valid_accuracy = self.evaluate_accuracy(self.valid_loader)
