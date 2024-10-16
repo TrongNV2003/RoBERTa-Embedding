@@ -30,7 +30,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--valid_batch_size", type=int, default=8)
     parser.add_argument("--log_file", type=str, default="training.csv")
     parser.add_argument("--train_file", type=str, default="dataset/train.json")
-    parser.add_argument("--valid_file", type=str, default="dataset/valid.json")
+    parser.add_argument("--valid_file", type=str, default="dataset/test_intrain.json")
     parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
 
