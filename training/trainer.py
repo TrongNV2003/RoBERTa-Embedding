@@ -41,7 +41,7 @@ class Trainer:
         train_set: Dataset,
         valid_batch_size: int,
         log_file: str,
-        # valid_set: Dataset,
+        valid_set: Dataset,
         evaluate_on_accuracy: bool = False
     ) -> None:
         self.device = device
@@ -61,13 +61,13 @@ class Trainer:
             pin_memory=pin_memory,
             shuffle=True
         )
-        # self.valid_loader = DataLoader(
-        #     valid_set,
-        #     batch_size=valid_batch_size,
-        #     num_workers=dataloader_workers,
-        #     pin_memory=pin_memory,
-        #     shuffle=False
-        # )
+        self.valid_loader = DataLoader(
+            valid_set,
+            batch_size=valid_batch_size,
+            num_workers=dataloader_workers,
+            pin_memory=pin_memory,
+            shuffle=False
+        )
         self.tokenizer = tokenizer
         self.model = model.to(self.device)
         self.optimizer = AdamW(self.model.parameters(), lr=learning_rate, weight_decay=weight_decay)
@@ -107,32 +107,32 @@ class Trainer:
                     tepoch.set_postfix({"train_loss": self.train_loss.avg})
                     tepoch.update(1)
 
-            # if self.evaluate_on_accuracy:
-            #     valid_accuracy = self.evaluate_accuracy(self.valid_loader)
-            #     if valid_accuracy > self.best_valid_score:
-            #         print(
-            #             f"Validation accuracy improved from {self.best_valid_score:.4f} to {valid_accuracy:.4f}. Saving."
-            #         )
-            #         self.best_valid_score = valid_accuracy
-            #         self._save()
-            #     valid_loss = self.evaluate(self.valid_loader)
-            #     if valid_loss < self.best_valid_score:
-            #         print(
-            #             f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
-            #         self.best_valid_score = valid_loss
-            #         self._save()
-            #     self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-            #                      'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
+            if self.evaluate_on_accuracy:
+                valid_accuracy = self.evaluate_accuracy(self.valid_loader)
+                if valid_accuracy > self.best_valid_score:
+                    print(
+                        f"Validation accuracy improved from {self.best_valid_score:.4f} to {valid_accuracy:.4f}. Saving."
+                    )
+                    self.best_valid_score = valid_accuracy
+                    self._save()
+                valid_loss = self.evaluate(self.valid_loader)
+                if valid_loss < self.best_valid_score:
+                    print(
+                        f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
+                    self.best_valid_score = valid_loss
+                    self._save()
+                self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
+                                 'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
                 
-            # else:
-            #     valid_loss = self.evaluate(self.valid_loader)
-            #     if valid_loss < self.best_valid_score:
-            #         print(
-            #             f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
-            #         self.best_valid_score = valid_loss
-            #         self._save()
-            #     self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-            #                      'valid_loss': valid_loss, 'valid_accuracy': None})
+            else:
+                valid_loss = self.evaluate(self.valid_loader)
+                if valid_loss < self.best_valid_score:
+                    print(
+                        f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
+                    self.best_valid_score = valid_loss
+                    self._save()
+                self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
+                                 'valid_loss': valid_loss, 'valid_accuracy': None})
 
 
     def cosine_similarity_loss(self, text_embeddings, label_embeddings, labels, margin=0.5):
