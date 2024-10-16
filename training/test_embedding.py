@@ -92,10 +92,10 @@ def calculate_accuracy(data_file, label_file):
         customer_label = item.get("Loại nghiệp vụ").strip()
         first_predict_label = item.get("label top 1").strip()
         describe = item.get("Diễn giải").strip()
+        
         for label_item in label_data:
             label_type = label_item["Loại chứng từ chuẩn hoá"].strip()
             labels = label_item["Nghiệp vụ chi tiết (đầu ra)"].strip()
-            label_type = label_item["Loại chứng từ"].strip()
 
         if customer_label is None or first_predict_label is None or describe is None:
             continue
@@ -131,8 +131,9 @@ def calculate_accuracy(data_file, label_file):
     print(f"Độ chính xác: {accuracy:.2f}%")
 
 if __name__ == "__main__":
+    customer_file = 'dataset/test_intrain.json'
     label_file = 'Danh sách loại nghiệp vụ1.json'
-    customer_file = 'test_intrain.json'
-    output_file = 'updated_customer_data.json'
+
     add_label_file(label_file)
-    calculate_accuracy(output_file, label_file)
+    predict_label(customer_file)
+    calculate_accuracy(customer_file, label_file)
