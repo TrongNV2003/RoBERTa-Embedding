@@ -36,7 +36,7 @@ class QGDataset(torch.utils.data.Dataset):
             "text_attention_mask": text_encoding["attention_mask"].squeeze(),
             "label_input_ids": label_encoding["input_ids"].squeeze(),
             "label_attention_mask": label_encoding["attention_mask"].squeeze(),
-            "label": torch.tensor(item["class"], dtype=torch.float)
+            "label": torch.tensor(item["label"], dtype=torch.float)
         }
 
     # def _encode_text(self, text: str) -> Tuple[torch.Tensor, torch.Tensor]:

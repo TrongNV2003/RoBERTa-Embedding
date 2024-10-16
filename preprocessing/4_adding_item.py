@@ -135,10 +135,10 @@ def negative_sample(json_file):
 
 if __name__ == "__main__":
     label_file = "Danh sách loại nghiệp vụ1.json"
-    data_file = "complete_dataset.json"
+    data_file = "dataset/test_intrain.json"
     negative_data = "negative sample/thu_tien_gui.json"
     
     # get_item(fake_data)
     # delete_object(fake_data)
-    negative_sample(negative_data)
+    add_item(data_file)
 
