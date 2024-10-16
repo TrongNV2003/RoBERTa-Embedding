@@ -107,32 +107,32 @@ class Trainer:
                     tepoch.set_postfix({"train_loss": self.train_loss.avg})
                     tepoch.update(1)
 
-            if self.evaluate_on_accuracy:
-                valid_accuracy = self.evaluate_accuracy(self.valid_loader)
-                if valid_accuracy > self.best_valid_score:
-                    print(
-                        f"Validation accuracy improved from {self.best_valid_score:.4f} to {valid_accuracy:.4f}. Saving."
-                    )
-                    self.best_valid_score = valid_accuracy
-                    self._save()
-                valid_loss = self.evaluate(self.valid_loader)
-                if valid_loss < self.best_valid_score:
-                    print(
-                        f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
-                    self.best_valid_score = valid_loss
-                    self._save()
-                self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-                                 'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
+            # if self.evaluate_on_accuracy:
+            #     valid_accuracy = self.evaluate_accuracy(self.valid_loader)
+            #     if valid_accuracy > self.best_valid_score:
+            #         print(
+            #             f"Validation accuracy improved from {self.best_valid_score:.4f} to {valid_accuracy:.4f}. Saving."
+            #         )
+            #         self.best_valid_score = valid_accuracy
+            #         self._save()
+            #     valid_loss = self.evaluate(self.valid_loader)
+            #     if valid_loss < self.best_valid_score:
+            #         print(
+            #             f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
+            #         self.best_valid_score = valid_loss
+            #         self._save()
+            #     self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
+            #                      'valid_loss': valid_loss, 'valid_accuracy': valid_accuracy})
                 
-            else:
-                valid_loss = self.evaluate(self.valid_loader)
-                if valid_loss < self.best_valid_score:
-                    print(
-                        f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
-                    self.best_valid_score = valid_loss
-                    self._save()
-                self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
-                                 'valid_loss': valid_loss, 'valid_accuracy': None})
+            
+            valid_loss = self.evaluate(self.valid_loader)
+            if valid_loss < self.best_valid_score:
+                print(
+                    f"Validation loss decreased from {self.best_valid_score:.4f} to {valid_loss:.4f}. Saving.")
+                self.best_valid_score = valid_loss
+                self._save()
+            self.logger.log({'epoch': epoch, 'train_loss': self.train_loss.avg,
+                                'valid_loss': valid_loss, 'valid_accuracy': None})
 
 
     def cosine_similarity_loss(self, text_embeddings, label_embeddings, labels, margin=0.5):
@@ -150,33 +150,40 @@ class Trainer:
         with tqdm(total=len(dataloader), unit="batches") as tepoch:
             tepoch.set_description("validation")
             for data in dataloader:
-                data = {key: value.to(self.device) for key, value in data.items()}
-                output = self.model(**data)
-                text_embeddings = output.last_hidden_state[:, 0, :]
-                label_embeddings = output.last_hidden_state[:, 0, :]
+                # data = {key: value.to(self.device) for key, value in data.items()}
+                # output = self.model(**data)
+                
+                text_input_ids = data["text_input_ids"].to(self.device)
+                text_attention_mask = data["text_attention_mask"].to(self.device)
+                label_input_ids = data["label_input_ids"].to(self.device)
+                label_attention_mask = data["label_attention_mask"].to(self.device)
+                labels = data["label"].to(self.device)
 
-                loss = self.cosine_similarity_loss(text_embeddings, label_embeddings, data["label"])
+                text_embeddings = self.model(input_ids=text_input_ids, attention_mask=text_attention_mask).last_hidden_state[:, 0, :]
+                label_embeddings = self.model(input_ids=label_input_ids, attention_mask=label_attention_mask).last_hidden_state[:, 0, :]
+
+                loss = self.cosine_similarity_loss(text_embeddings, label_embeddings, labels)
                 
                 eval_loss.update(loss.item(), self.valid_batch_size)
                 tepoch.set_postfix({"valid_loss": eval_loss.avg})
                 tepoch.update(1)
         return eval_loss.avg
 
-    @torch.no_grad()
-    def evaluate_accuracy(self, dataloader: DataLoader) -> float:
-        self.model.eval()
-        accuracy = AverageMeter()
-        with tqdm(total=len(dataloader), unit="batches") as tepoch:
-            tepoch.set_description("validation")
-            for data in dataloader:
-                data = {key: value.to(self.device) for key, value in data.items()}
-                output = self.model(**data)
-                preds = torch.argmax(output.logits, dim=1)
-                score = accuracy_score(data["labels"].cpu(), preds.cpu())
-                accuracy.update(score, self.valid_batch_size)
-                tepoch.set_postfix({"valid_acc": accuracy.avg})
-                tepoch.update(1)
-        return accuracy.avg
+    # @torch.no_grad()
+    # def evaluate_accuracy(self, dataloader: DataLoader) -> float:
+    #     self.model.eval()
+    #     accuracy = AverageMeter()
+    #     with tqdm(total=len(dataloader), unit="batches") as tepoch:
+    #         tepoch.set_description("validation")
+    #         for data in dataloader:
+    #             data = {key: value.to(self.device) for key, value in data.items()}
+    #             output = self.model(**data)
+    #             preds = torch.argmax(output.logits, dim=1)
+    #             score = accuracy_score(data["labels"].cpu(), preds.cpu())
+    #             accuracy.update(score, self.valid_batch_size)
+    #             tepoch.set_postfix({"valid_acc": accuracy.avg})
+    #             tepoch.update(1)
+    #     return accuracy.avg
 
     def _save(self) -> None:
         self.tokenizer.save_pretrained(self.save_dir)
