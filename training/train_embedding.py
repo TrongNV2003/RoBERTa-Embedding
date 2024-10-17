@@ -26,7 +26,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--qg_model", type=str, default="bkai-foundation-models/vietnamese-bi-encoder")
     parser.add_argument("--pin_memory", dest="pin_memory", action="store_true", default=False)
     parser.add_argument("--save_dir", type=str, default="./bkai-embedding-encoder")
-    parser.add_argument("--train_batch_size", type=int, default=16)
+    parser.add_argument("--train_batch_size", type=int, default=32)
     parser.add_argument("--valid_batch_size", type=int, default=8)
     parser.add_argument("--log_file", type=str, default="training.csv")
     parser.add_argument("--train_file", type=str, default="2 neg dataset/train_1_neg.json")
@@ -36,9 +36,9 @@ def parse_args() -> argparse.Namespace:
 
 def get_tokenizer(checkpoint: str) -> AutoTokenizer:
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-    tokenizer.add_special_tokens(
-        {'additional_special_tokens': ['<sep>']}
-    )
+    # tokenizer.add_special_tokens(
+    #     {'additional_special_tokens': ['<sep>']}
+    # )
     return tokenizer
 
 def get_model(checkpoint: str, device: str, tokenizer: AutoTokenizer) -> RobertaModel:
