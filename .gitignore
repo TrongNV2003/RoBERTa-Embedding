@@ -1,4 +1,6 @@
 /json data
-/preprocessing
 /raw_data
 /đánh giá bộ dữ liệu 2, 3
+/negative sample
+.gitignore
+/preprocessing
