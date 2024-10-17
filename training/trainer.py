@@ -95,7 +95,7 @@ class Trainer:
                     text_embeddings = self.model(input_ids=text_input_ids, attention_mask=text_attention_mask).last_hidden_state[:, 0, :]
                     label_embeddings = self.model(input_ids=label_input_ids, attention_mask=label_attention_mask).last_hidden_state[:, 0, :]
 
-                    loss = self.cosine_similarity_loss(text_embeddings, label_embeddings, labels)
+                    loss = self.contrastive_loss(text_embeddings, label_embeddings, labels)
                     
                     self.optimizer.zero_grad()
                     loss.backward()
@@ -134,12 +134,17 @@ class Trainer:
             #                     'valid_loss': valid_loss, 'valid_accuracy': None})
 
 
-    def cosine_similarity_loss(self, text_embeddings, label_embeddings, labels, margin=0.5):
-        cosine_sim = F.cosine_similarity(text_embeddings, label_embeddings)
+    # def cosine_similarity_loss(self, text_embeddings, label_embeddings, labels, margin=0.5):
+    #     cosine_sim = F.cosine_similarity(text_embeddings, label_embeddings)
 
-        # Tính BCE loss với nhãn 1 cho positive và 0 cho negative
-        loss = F.binary_cross_entropy_with_logits(cosine_sim, labels)
+    #     # Tính BCE loss với nhãn 1 cho positive và 0 cho negative
+    #     loss = F.binary_cross_entropy_with_logits(cosine_sim, labels)
 
+    #     return loss
+
+    def contrastive_loss(self, text_embeddings, label_embeddings, labels, margin=0.5):
+        cosine_sim = torch.nn.functional.cosine_similarity(text_embeddings, label_embeddings)
+        loss = torch.nn.BCEWithLogitsLoss()(cosine_sim, labels.float())
         return loss
 
     # @torch.no_grad()
