@@ -131,7 +131,7 @@ def calculate_accuracy(data_file, label_file):
     print(f"Độ chính xác: {accuracy:.2f}%")
 
 if __name__ == "__main__":
-    customer_file = 'dataset/test_intrain.json'
+    customer_file = '2 neg dataset/test.json'
     label_file = 'Danh sách loại nghiệp vụ1.json'
     output_file = "updated_customer_data.json"
     add_label_file(label_file)
